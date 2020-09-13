@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nav</title>
+    <style>
+        .View {
+                    color: royalblue;
+                }
+
+            header{
+                background-color: royalblue;
+            }
+
+            .subscribe {
+                display: block;
+                width: 24%;
+                background-color: white;
+                border: none;
+                color: white;
+                padding: 20px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin: 8px 2px;
+                border-radius: 8px;
+                cursor: pointer;
+            }
+            
+            .align-right {
+                text-align:center;
+                border: 0;
+            }
+
+        nav{
+            width: 100%;
+            height: 120px;
+            background-color: #fff;
+        }
+        
+        nav h1{
+            font-family: arial;
+            color: #222;
+            font-size: 24px;
+            line-height: 55px;
+            float: left;
+            padding: 0px 20px;
+        }
+
+        nav ul{
+            float: left;
+        }
+
+        nav ul li{
+            float: left;
+            list-style: none;
+            position: relative;
+        }
+        *{
+            padding: 0;
+        }
+
+        nav ul li a{
+            display: block;
+            font-family: arial;
+            color: #222;
+            font-size: 14px;
+            padding: 22px 14px;
+            text-decoration: none;
+        }
+
+        nav ul li ul{
+            display: none;
+            position: absolute;
+            background-color: #f3f3f3;
+            padding: 10px;
+            border-radius: 0px 0px 4px 4px;
+        }
+
+        nav ul li:hover ul{
+            display: block;
+        }
+
+        nav ul li ul li{
+            width: 180px;
+            border-radius: 4px;
+        }
+
+        nav ul li ul li a{
+            padding: 8px 14px;
+        }
+
+        nav ul li ul li a:hover{
+            background-color: #d8d8d8;
+        }
+
+        nav h1 a{
+            color: black;
+        }
+    </style>
+</head>
+<header>
+    <div class="align-right">
+        <button class="subscribe" style="color: royalblue;" type="button" onclick=" window.open('https://www.youtube.com/channel/UCEh6ZxENe-OzEu_tl3t3s-w?sub_confirmation=1','_blank')">SUBSCRIBE TO NEVER MISS A THING!!</button>
+    </div>
+</header>
+<body>
+    <nav>
+        <h1><a href="">CraftRBLX</a></h1>
+        <ul>
+            <li><a href="#">Pages (Navigator)▼</a>
+                <ul>
+                    <li><a href="">Homepage</a></li>
+                    <li><a href="">Videos</a></li>
+                    <li><a href="">About/Q&A</a></li>
+                    <li><a href="">Announcements</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+</body>
+</html>

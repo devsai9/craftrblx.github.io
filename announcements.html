@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="google-site-verification" content="dFhUOPdAKLRaApFQyQDswd2V7mnecOO-X2TW__8zo6U" />
+        <title>CraftRBLX Announcements</title>
+        <link rel="shortcut icon" type="image/png" href="https://yt3.ggpht.com/a-/AOh14GjXraXhcMw05tMhmkpxfG7PQm9rZEuc4eBEGmwt=s100-c-k-c0xffffffff-no-rj-mo">
+        <script>
+            function includeHTML() {
+              var z, i, elmnt, file, xhttp;
+              /*loop through a collection of all HTML elements:*/
+              z = document.getElementsByTagName("*");
+              for (i = 0; i < z.length; i++) {
+                elmnt = z[i];
+                /*search for elements with a certain atrribute:*/
+                file = elmnt.getAttribute("w3-include-html");
+                if (file) {
+                  /*make an HTTP request using the attribute value as the file name:*/
+                  xhttp = new XMLHttpRequest();
+                  xhttp.onreadystatechange = function() {
+                    if (this.readyState == 4) {
+                      if (this.status == 200) {elmnt.innerHTML = this.responseText;}
+                      if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
+                      /*remove the attribute, and call this function once more:*/
+                      elmnt.removeAttribute("w3-include-html");
+                      includeHTML();
+                    }
+                  }      
+                  xhttp.open("GET", file, true);
+                  xhttp.send();
+                  /*exit the function:*/
+                  return;
+                }
+              }
+            };
+            </script>
+    </head>
+    <body>
+        <div w3-include-html=""></div>
+        <h2>Announcements:</h2>
+        <button style="cursor: pointer;" class="View" type="button" onclick=" window.open('https://www.youtube.com/channel/UCEh6ZxENe-OzEu_tl3t3s-w?','_blank')">View Channel</button>
+        <h3>Upload schedule change. Date: 9/9/2020</h3>
+        <p>There will be a change to my upload pattern due to some reasons. I will <i>try</i> to upload every Wednesday. Thanks and have a good day!</p>
+        <h2>Upcoming Announcements:</h2>
+        <h3>CraftRBLX Offical Website is complete... for now! Date: Unknown</h3>
+        <p>The CraftRBLX Offical Website for the CraftRBLX channel is complete! Video on this soon! Subscribe and hit the bell @ https://www.youtube.com/channel/UCEh6ZxENe-OzEu_tl3t3s-w? so you won't miss it. <br>Comment bugs or improvments for this website in the comment section of my latest video thanks!</p>
+        <p style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 20px;">You're all caught up!! YAY</p>
+        <script>
+            includeHTML();
+        </script>
+    </body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="google-site-verification" content="dFhUOPdAKLRaApFQyQDswd2V7mnecOO-X2TW__8zo6U" />
+        <title style="font-size: 10px;">CraftRBLX Videos page</title>
+        <link rel="shortcut icon" type="image/png" href="https://yt3.ggpht.com/a-/AOh14GjXraXhcMw05tMhmkpxfG7PQm9rZEuc4eBEGmwt=s100-c-k-c0xffffffff-no-rj-mo">
+        <script>
+            function includeHTML() {
+              var z, i, elmnt, file, xhttp;
+              /*loop through a collection of all HTML elements:*/
+              z = document.getElementsByTagName("*");
+              for (i = 0; i < z.length; i++) {
+                elmnt = z[i];
+                /*search for elements with a certain atrribute:*/
+                file = elmnt.getAttribute("w3-include-html");
+                if (file) {
+                  /*make an HTTP request using the attribute value as the file name:*/
+                  xhttp = new XMLHttpRequest();
+                  xhttp.onreadystatechange = function() {
+                    if (this.readyState == 4) {
+                      if (this.status == 200) {elmnt.innerHTML = this.responseText;}
+                      if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
+                      /*remove the attribute, and call this function once more:*/
+                      elmnt.removeAttribute("w3-include-html");
+                      includeHTML();
+                    }
+                  }      
+                  xhttp.open("GET", file, true);
+                  xhttp.send();
+                  /*exit the function:*/
+                  return;
+                }
+              }
+            };
+            </script>
+    </head>
+    <body>
+        <div w3-include-html=""></div>
+        <h2>Videos</h2>
+        <button style="cursor: pointer;" class="View" type="button" onclick=" window.open('https://www.youtube.com/channel/UCEh6ZxENe-OzEu_tl3t3s-w?','_blank')">View Channel</button>
+        <p>______________________________________________________________________________________________________________________________________________</p>
+        <h2>Minecraft 1.16 SLP series</h2>
+        <a style="color:royalblue;" href="https://www.youtube.com/playlist?list=PL1ddLdpyTRkw3T8ERRIEPXWO2ErBGY2cK">Link to Playlist</a>
+        <p>More contents/features coming soon!</p>
+        <p>______________________________________________________________________________________________________________________________________________</p>
+        <p style="font-size: 18px;">So if you want to support this small channel and make it a big, well-known channel please consider subscribing. Thanks!</p>
+        <button style="color: royalblue; cursor: pointer;" type="button" onclick=" window.open('https://www.youtube.com/channel/UCEh6ZxENe-OzEu_tl3t3s-w?sub_confirmation=1','_blank')">SUBSCRIBE</button>
+        <script>
+            includeHTML();
+        </script>
+    </body>
+</html>
