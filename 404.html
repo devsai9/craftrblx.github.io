@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Error 404</title>
+      <link rel="shortcut icon" type="image/png" href="https://yt3.ggpht.com/a-/AOh14GjXraXhcMw05tMhmkpxfG7PQm9rZEuc4eBEGmwt=s100-c-k-c0xffffffff-no-rj-mo">
+          <script>
+              function includeHTML() {
+                var z, i, elmnt, file, xhttp;
+                /*loop through a collection of all HTML elements:*/
+                z = document.getElementsByTagName("*");
+                for (i = 0; i < z.length; i++) {
+                  elmnt = z[i];
+                  /*search for elements with a certain atrribute:*/
+                  file = elmnt.getAttribute("w3-include-html");
+                  if (file) {
+                    /*make an HTTP request using the attribute value as the file name:*/
+                    xhttp = new XMLHttpRequest();
+                    xhttp.onreadystatechange = function() {
+                      if (this.readyState == 4) {
+                        if (this.status == 200) {elmnt.innerHTML = this.responseText;}
+                        if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
+                        /*remove the attribute, and call this function once more:*/
+                        elmnt.removeAttribute("w3-include-html");
+                        includeHTML();
+                      }
+                    }      
+                    xhttp.open("GET", file, true);
+                    xhttp.send();
+                    /*exit the function:*/
+                    return;
+                  }
+                }
+              };
+          </script>
+  </head>
+  <body>
+      <div w3-include-html="https://techmcgamez.github.io/nav.html"></div>
+      <h1 style="text-align: center;">Error 404</h1>
+      <h2 style="text-align: center;">The URL you've entered is invalid please go to <a href="https://techmcgamez.github.io/homepage.html">https://techmcgamez.github.io/homepage.html</a> or use the navigator</h2>
+      <script>
+          includeHTML();
+      </script>
+  </body>
+</html>
