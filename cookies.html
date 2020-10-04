@@ -42,9 +42,24 @@
     <script>
         includeHTML();
     </script>
-    <script src="https://cdn.jsdelivr.net/npm/darkreader@4.9.17/darkreader.min.js"></script>
-    <link href="https://css.gg/css?=|moon|sun" rel="stylesheet">
-    <script src="toggle.js"></script> 
+   <button onclick="myFunction()">Toggle dark mode</button>
+        <script>
+            function myFunction() {
+              var element = document.body;
+              element.classList.toggle("dark-mode");
+
+              var element2 = document.getElementById('navele');
+              element2.classList.toggle("nav-darkmode");
+
+              var anchorelements = element2.getElementsByTagName('a');
+              var anchorList = Array.prototype.slice.call(anchorelements);
+              anchorList.forEach(ToggleDarkMode);
+
+              function ToggleDarkMode(value, index, ar) {
+                    value.classList.toggle("nav-darkmode");
+                }
+            }
+        </script>
     <script src="http://www.craftrblxlocal.com/cookies.js"></script>
 </body>
 </html>
