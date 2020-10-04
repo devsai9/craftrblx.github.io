@@ -99,32 +99,31 @@
         nav h1 a{
             color: black;
         }
-        div.dark-mode-toggle{
-            position: fixed;
-            bottom:8px;
-            left:8px;
-            z-index: 1000;
-            cursor: pointer;
-            background: #fff;
-            padding: 10px;
-            border-radius: 50%;
-            box-shadow: 0 3px 6x rgba(0, 0, 0, 0.23);
-        }
-        .div.dark-mode-toggle:hover {
-            box-shadow: 0 10px 20px rgba(0,0,0,0.19);
-        }
+      body {
+        padding: 25px;
+        background-color: white;
+        color: black;
+        font-size: 25px;
+      }
+
+    .dark-mode {
+        background-color: black;
+        color: white;
+    }
+
+    .nav-darkmode{
+        color:white;
+        background-color: black;
+    }
     </style>
 </head>
 <header>
     <div class="align-right">
         <button class="subscribe" style="color: royalblue;" type="button" onclick=" window.open('https://www.youtube.com/channel/UCEh6ZxENe-OzEu_tl3t3s-w?sub_confirmation=1','_blank')">SUBSCRIBE TO NEVER MISS A THING!!</button>
     </div>
-    <div class="dark-mode-toggle">
-            <i class="gg-moon"></i>
-    </div>    
 </header>
 <body>
-    <nav>
+    <nav id="navele">
         <h1><a href="https://techmcgamez.github.io/homepage.html">CraftRBLX</a></h1>
         <ul>
             <li><a href="#">Pages (Navigator)▼</a>
