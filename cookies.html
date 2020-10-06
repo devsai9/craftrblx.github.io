@@ -1,65 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" type="image/png" href="https://yt3.ggpht.com/a-/AOh14GjXraXhcMw05tMhmkpxfG7PQm9rZEuc4eBEGmwt=s100-c-k-c0xffffffff-no-rj-mo">
-    <title>CraftRBLX Cookies</title>
-    <script>
-        function includeHTML() {
-          var z, i, elmnt, file, xhttp;
-          /*loop through a collection of all HTML elements:*/
-          z = document.getElementsByTagName("*");
-          for (i = 0; i < z.length; i++) {
-            elmnt = z[i];
-            /*search for elements with a certain atrribute:*/
-            file = elmnt.getAttribute("w3-include-html");
-            if (file) {
-              /*make an HTTP request using the attribute value as the file name:*/
-              xhttp = new XMLHttpRequest();
-              xhttp.onreadystatechange = function() {
-                if (this.readyState == 4) {
-                  if (this.status == 200) {elmnt.innerHTML = this.responseText;}
-                  if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
-                  /*remove the attribute, and call this function once more:*/
-                  elmnt.removeAttribute("w3-include-html");
-                  includeHTML();
-                }
-              }      
-              xhttp.open("GET", file, true);
-              xhttp.send();
-              /*exit the function:*/
-              return;
-            }
-          }
-        };
-    </script>
-</head>
-<body>
-    <div w3-include-html="nav.html"></div>
-    <h1 style="font-size: 1.45vw;">This website uses cookies to save your choices</h1>
-    <p>We use cookies to save if you've turned on dark mode. WE DO NO TRACK YOU OR DISPLAY ADS.</p>
-    <script>
-        includeHTML();
-    </script>
-   <button onclick="myFunction()">Toggle dark mode</button>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" type="image/png" href="https://yt3.ggpht.com/a-/AOh14GjXraXhcMw05tMhmkpxfG7PQm9rZEuc4eBEGmwt=s100-c-k-c0xffffffff-no-rj-mo">
+        <title>CraftRBLX Cookies</title>
         <script>
-            function myFunction() {
-              var element = document.body;
-              element.classList.toggle("dark-mode");
-
-              var element2 = document.getElementById('navele');
-              element2.classList.toggle("nav-darkmode");
-
-              var anchorelements = element2.getElementsByTagName('a');
-              var anchorList = Array.prototype.slice.call(anchorelements);
-              anchorList.forEach(ToggleDarkMode);
-
-              function ToggleDarkMode(value, index, ar) {
-                    value.classList.toggle("nav-darkmode");
+            function includeHTML() {
+              var z, i, elmnt, file, xhttp;
+              /*loop through a collection of all HTML elements:*/
+              z = document.getElementsByTagName("*");
+              for (i = 0; i < z.length; i++) {
+                elmnt = z[i];
+                /*search for elements with a certain atrribute:*/
+                file = elmnt.getAttribute("w3-include-html");
+                if (file) {
+                  /*make an HTTP request using the attribute value as the file name:*/
+                  xhttp = new XMLHttpRequest();
+                  xhttp.onreadystatechange = function() {
+                    if (this.readyState == 4) {
+                      if (this.status == 200) {elmnt.innerHTML = this.responseText;}
+                      if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
+                      /*remove the attribute, and call this function once more:*/
+                      elmnt.removeAttribute("w3-include-html");
+                      includeHTML();
+                    }
+                  }      
+                  xhttp.open("GET", file, true);
+                  xhttp.send();
+                  /*exit the function:*/
+                  return;
                 }
-            }
+              }
+            };
         </script>
-    <script src="http://www.craftrblxlocal.com/cookies.js"></script>
-</body>
+    </head>
+    <body>
+        <div class="wrapper">
+            <div w3-include-html="nav.html"></div>
+            <h1>This website uses cookies to save your choices</h1>
+            <p>We use cookies to save if you've turned on dark mode. WE DO NO TRACK YOU OR DISPLAY ADS.</p>
+            <script>
+                includeHTML();
+            </script>
+            <button onclick="myFunction()">Toggle dark mode</button>
+            <script>
+                function myFunction() {
+                  var element = document.body;
+                  element.classList.toggle("dark-mode");
+
+                  var element2 = document.getElementById('navele');
+                  element2.classList.toggle("nav-darkmode");
+
+                  var anchorelements = element2.getElementsByTagName('a');
+                  var anchorList = Array.prototype.slice.call(anchorelements);
+                  anchorList.forEach(ToggleDarkMode);
+
+                  function ToggleDarkMode(value, index, ar) {
+                        value.classList.toggle("nav-darkmode");
+                    }
+                }
+            </script>
+        </div>
+    </body>
 </html>
