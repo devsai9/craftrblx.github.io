@@ -37,37 +37,38 @@
             </script>
     </head>
     <body>
-        <div w3-include-html="nav.html"></div>
-        <h2 style="font-size: 1.45vw;">Announcements:</h2>
-        <button style="cursor: pointer;" class="View" type="button" onclick=" window.open('https://www.youtube.com/channel/UCEh6ZxENe-OzEu_tl3t3s-w?','_blank')">View Channel</button>
-        <h3>Upload schedule change. Date: 9/9/2020</h3>
-        <p>There will be a change to my upload pattern due to some reasons. I will <i>try</i> to upload every Wednesday. Thanks and have a good day!</p>
-        <h2 style="font-size: 1.45vw;">Upcoming Announcements:</h2>
-        <h3>CraftRBLX Offical Website is complete... for now! Date: Unknown</h3>
-        <p>The CraftRBLX Offical Website for the CraftRBLX channel is complete! Video on this soon! Subscribe and hit the bell @ https://www.youtube.com/channel/UCEh6ZxENe-OzEu_tl3t3s-w? so you won't miss it. <br>Comment bugs or improvments for this website in the comment section of my latest video thanks!</p>
-        <p style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">You're all caught up!! YAY</p>
-        <script>
-            includeHTML();
-        </script>
-       <button onclick="myFunction()">Toggle dark mode</button>
-        <script>
-            function myFunction() {
-              var element = document.body;
-              element.classList.toggle("dark-mode");
+        <div class="wrapper">
+            <div w3-include-html="nav.html"></div>
+            <h2>Announcements:</h2>
+            <button style="cursor: pointer;" class="View" type="button" onclick=" window.open('https://www.youtube.com/channel/UCEh6ZxENe-OzEu_tl3t3s-w?','_blank')">View Channel</button>
+            <h3>Upload pause. Date: 10(M)/6(D)/2020(Y)</h3>
+            <p>I am trying to start up a coding channel, so I won't publish videos on this channel for a bit. Thanks and have a good day!</p>
+            <h2>Upcoming Announcements:</h2>
+            <h3>Nothing to see here</h3>
+            <p style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">You're all caught up!! YAY</p>
+            <script>
+                includeHTML();
+            </script>
+           <button onclick="myFunction()">Toggle dark mode</button>
+            <script>
+                function myFunction() {
+                  var element = document.body;
+                  element.classList.toggle("dark-mode");
 
-              var element2 = document.getElementById('navele');
-              element2.classList.toggle("nav-darkmode");
+                  var element2 = document.getElementById('navele');
+                  element2.classList.toggle("nav-darkmode");
 
-              var anchorelements = element2.getElementsByTagName('a');
-              var anchorList = Array.prototype.slice.call(anchorelements);
-              anchorList.forEach(ToggleDarkMode);
+                  var anchorelements = element2.getElementsByTagName('a');
+                  var anchorList = Array.prototype.slice.call(anchorelements);
+                  anchorList.forEach(ToggleDarkMode);
 
-              function ToggleDarkMode(value, index, ar) {
-                    value.classList.toggle("nav-darkmode");
+                  function ToggleDarkMode(value, index, ar) {
+                        value.classList.toggle("nav-darkmode");
+                    }
                 }
-            }
-        </script>
-        <script type="text/javascript" src="https://techmcgamez.github.io/cookieconsentpopup.js"></script>
-        <script> window.start.init({Palette:"palette2",Mode:"banner bottom",Theme:"classic",Message:"This website uses cookies to save your choices like dark mode!",LinkText:"Learn more",Location:"https://techmcgamez.github.io/cookies.html",})</script>
+            </script>
+            <script type="text/javascript" src="https://techmcgamez.github.io/cookieconsentpopup.js"></script>
+            <script> window.start.init({Palette:"palette2",Mode:"banner bottom",Theme:"classic",Message:"This website uses cookies to save your choices like dark mode!",LinkText:"Learn more",Location:"https://techmcgamez.github.io/cookies.html",})</script>
+        </div>
     </body>
 </html>
