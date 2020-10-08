@@ -49,26 +49,16 @@
             <script>
                 includeHTML();
             </script>
-           <button onclick="myFunction()">Toggle dark mode</button>
-            <script>
-                function myFunction() {
-                  var element = document.body;
-                  element.classList.toggle("dark-mode");
-
-                  var element2 = document.getElementById('navele');
-                  element2.classList.toggle("nav-darkmode");
-
-                  var anchorelements = element2.getElementsByTagName('a');
-                  var anchorList = Array.prototype.slice.call(anchorelements);
-                  anchorList.forEach(ToggleDarkMode);
-
-                  function ToggleDarkMode(value, index, ar) {
-                        value.classList.toggle("nav-darkmode");
-                    }
-                }
-            </script>
             <script type="text/javascript" src="https://techmcgamez.github.io/cookieconsentpopup.js"></script>
             <script> window.start.init({Palette:"palette2",Mode:"banner bottom",Theme:"classic",Message:"This website uses cookies to save your choices like dark mode!",LinkText:"Learn more",Location:"https://techmcgamez.github.io/cookies.html",})</script>
+            <link id="style" rel="stylesheet" type="text/css" href="light.css">
+            <script src="dark.js"></script>
+            <button class="light" onclick="swapStyle('light.css')" >
+              <i class="far fa-sun"></i>      
+            </button>
+            <button class="dark" onclick="swapStyle('dark.css')">
+              <i class="far fa-moon"></i>
+            </button>
         </div>
     </body>
 </html>
