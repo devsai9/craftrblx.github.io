@@ -43,24 +43,14 @@
             <script>
                 includeHTML();
             </script>
-            <button onclick="myFunction()">Toggle dark mode</button>
-            <script>
-                function myFunction() {
-                  var element = document.body;
-                  element.classList.toggle("dark-mode");
-
-                  var element2 = document.getElementById('navele');
-                  element2.classList.toggle("nav-darkmode");
-
-                  var anchorelements = element2.getElementsByTagName('a');
-                  var anchorList = Array.prototype.slice.call(anchorelements);
-                  anchorList.forEach(ToggleDarkMode);
-
-                  function ToggleDarkMode(value, index, ar) {
-                        value.classList.toggle("nav-darkmode");
-                    }
-                }
-            </script>
+            <link id="style" rel="stylesheet" type="text/css" href="light.css">
+            <script src="dark.js"></script>
+            <button class="light" onclick="swapStyle('light.css')" >
+              <i class="far fa-sun"></i>      
+            </button>
+            <button class="dark" onclick="swapStyle('dark.css')">
+              <i class="far fa-moon"></i>
+            </button>
         </div>
     </body>
 </html>
