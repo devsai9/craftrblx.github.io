@@ -1,0 +1,46 @@
+<!DOCTYPE=HTML>
+<html>
+  <head>
+    <title>CraftRBLX Goals page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="dFhUOPdAKLRaApFQyQDswd2V7mnecOO-X2TW__8zo6U" />
+    <link rel="shortcut icon" type="image/png" href="https://yt3.ggpht.com/a-/AOh14GjXraXhcMw05tMhmkpxfG7PQm9rZEuc4eBEGmwt=s100-c-k-c0xffffffff-no-rj-mo">
+    <script>
+      function includeHTML() {
+              var z, i, elmnt, file, xhttp;
+              /*loop through a collection of all HTML elements:*/
+              z = document.getElementsByTagName("*");
+              for (i = 0; i < z.length; i++) {
+                elmnt = z[i];
+                /*search for elements with a certain atrribute:*/
+                file = elmnt.getAttribute("w3-include-html");
+                if (file) {
+                  /*make an HTTP request using the attribute value as the file name:*/
+                  xhttp = new XMLHttpRequest();
+                  xhttp.onreadystatechange = function() {
+                    if (this.readyState == 4) {
+                      if (this.status == 200) {elmnt.innerHTML = this.responseText;}
+                      if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
+                      /*remove the attribute, and call this function once more:*/
+                      elmnt.removeAttribute("w3-include-html");
+                      includeHTML();
+                    }
+                  }      
+                  xhttp.open("GET", file, true);
+                  xhttp.send();
+                  /*exit the function:*/
+                  return;
+                }
+              }
+            };
+    </script>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
+    </style>
+  </head>
+  <body>
+    <img src="https://media.istockphoto.com/photos/construction-experts-picture-id588383490?k=6&m=588383490&s=612x612&w=0&h=qYtgjaEnmBeeYjiWypHHDUXWylHr8mfmOmgHP7WTr5Q=">
+    <h3 style="font-family: 'Quicksand', sans-serif;" >Sorry, Under Construction</h3>
+  </body>
+</html>
