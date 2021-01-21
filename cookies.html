@@ -36,10 +36,26 @@
         </script>
     </head>
     <body>
+         <p>Translate this page in your preferred language:</p>
+         <div id="google_translate_element"></div>  
+      
+        <script type="text/javascript">  
+            function googleTranslateElementInit() {  
+                new google.translate.TranslateElement( 
+                    {pageLanguage: 'en'},  
+                    'google_translate_element' 
+                );  
+            }  
+        </script>  
+      
+        <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"> </script>  
+        <p> 
+            You can translate the content of this page by selecting a language in the select box. 
+        </p>  
         <div class="wrapper">
             <div w3-include-html="nav.html"></div>
             <h1>This website uses cookies to save your choices</h1>
-            <p>We use cookies to save if you've turned on dark mode. WE DO NO TRACK YOU OR DISPLAY ADS.</p>
+            <p>We use cookies to save if you've turned on dark mode. Or your preferred language. WE DO NO TRACK YOU OR DISPLAY ADS.</p>
             <script>
                 includeHTML();
             </script>
