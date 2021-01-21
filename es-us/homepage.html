@@ -30,7 +30,7 @@
                   xhttp.onreadystatechange = function() {
                     if (this.readyState == 4) {
                       if (this.status == 200) {elmnt.innerHTML = this.responseText;}
-                      if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
+                      if (this.status == 404) {elmnt.innerHTML = "Página no encontrada.";}
                       /*remove the attribute, and call this function once more:*/
                       elmnt.removeAttribute("w3-include-html");
                       includeHTML();
@@ -52,15 +52,15 @@
         <div class="wrapper">
             <div w3-include-html="nav.html"></div>
             <h2 style="font-family: 'Quicksand', sans-serif;">Homepage</h2>
-            <button style="cursor: pointer; font-family: 'Quicksand', sans-serif;" class="View" type="button" onclick=" window.open('https://www.youtube.com/channel/UCEh6ZxENe-OzEu_tl3t3s-w?','_blank')">View channel</button>
-            <p style="font-family: 'Quicksand', sans-serif;">Check out the other pages! Navigator to the right of the CraftRBLX text</p>
-            <p style="font-family: 'Quicksand', sans-serif;">So if you want to support this small channel and make it a big, well-known channel please consider subscribing. Thanks!</p>
-            <button style="color: royalblue; cursor: pointer; font-family: 'Quicksand', sans-serif;" type="button" onclick=" window.open('https://www.youtube.com/channel/UCEh6ZxENe-OzEu_tl3t3s-w?sub_confirmation=1','_blank')">SUBSCRIBE</button><br>
+            <button style="cursor: pointer; font-family: 'Quicksand', sans-serif;" class="View" type="button" onclick=" window.open('https://www.youtube.com/channel/UCEh6ZxENe-OzEu_tl3t3s-w?','_blank')">Ver canal</button>
+            <p style="font-family: 'Quicksand', sans-serif;">¡Mira las otras páginas! Navegador a la derecha del texto CraftRBLX</p>
+            <p style="font-family: 'Quicksand', sans-serif;">Entonces, si desea apoyar este pequeño canal y convertirlo en un canal grande y conocido, considere suscribirse. ¡Gracias!</p>
+            <button style="color: royalblue; cursor: pointer; font-family: 'Quicksand', sans-serif;" type="button" onclick=" window.open('https://www.youtube.com/channel/UCEh6ZxENe-OzEu_tl3t3s-w?sub_confirmation=1','_blank')">SUSCRIBIR</button><br>
             <script>
                 includeHTML();
             </script>
             <script type="text/javascript" src="https://techmcgamez.github.io/cookieconsentpopup.js"></script>
-            <script> window.start.init({Palette:"palette2",Mode:"banner bottom",Theme:"classic",Message:"This website uses cookies to save your choices like dark mode!",LinkText:"Learn more",Location:"https://techmcgamez.github.io/cookies.html",})</script>
+            <script> window.start.init({Palette:"palette2",Mode:"banner bottom",Theme:"classic",Message:"¡Este sitio web utiliza cookies para guardar sus elecciones como el modo oscuro!",LinkText:"Aprende más",Location:"https://techmcgamez.github.io/cookies.html",})</script>
              <link id="style" rel="stylesheet" type="text/css" href="light.css">
             <script src="dark.js"></script>
             <button class="light" onclick="swapStyle('light.css')" >
