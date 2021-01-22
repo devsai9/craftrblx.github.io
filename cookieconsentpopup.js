@@ -12,7 +12,7 @@ content.href+
 content.target+
 '>'+
 content.link+
-'</a></span><span class="credit"><a href="https://techmcgamez.github.io/homepage.html" target="_blank">Powered by CraftRBLX</a></span><div id="btn" class="compliance"><a href="#" id="cookie-btn" class="spopupbtnok" >'+
+'</a></span><span class="credit"><a href="https://craftrblx.github.io/homepage.html" target="_blank">Powered by CraftRBLX</a></span><div id="btn" class="compliance"><a href="#" id="cookie-btn" class="spopupbtnok" >'+
 content.btnText+
 '</a></div></div>';document.body.appendChild(conDivObj);fadeIn(conDivObj);document.getElementById('cookie-btn').addEventListener('click',function(){saveCookie();fadeOut(conDivObj);});};let fadeOut=function(element){var op=1;var timer=setInterval(function(){if(op<=0.1){clearInterval(timer);conDivObj.parentElement.removeChild(conDivObj);}
 element.style.opacity=op;element.style.filter='alpha(opacity='+op*100+')';op-=op*0.1;},fadeOutTime);};let fadeIn=function(element){var op=0.1;var timer=setInterval(function(){if(op>=1){clearInterval(timer);}
