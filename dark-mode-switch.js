@@ -17,6 +17,7 @@
     function resetTheme() {
       if (darkSwitch.checked) {
         document.body.setAttribute("data-theme", "dark");
+        document.getelementsbyId("subscribe").style.color = "black";
         localStorage.setItem("darkSwitch", "dark");
       } else {
         document.body.removeAttribute("data-theme");
