@@ -53,107 +53,8 @@
               }
             };
         </script>
-        <style>
-            @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
-        </style>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-        <link rel="stylesheet" href="dark-mode.css">
-      <style>
-        .subscribe {
-            display: block;
-            width: 24%;
-            background-color: white;
-            border: none;
-            color:royalblue;
-            padding: 20px;
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
-            font-size: 20px;
-            margin: 8px 2px;
-            border-radius: 8px;
-            cursor: pointer;
-        }
-
-        nav{
-            width: 100%;
-            height: 120px;
-            background-color: white;
-        }
-
-        nav h1{
-            font-family: arial;
-            color: #222;
-            font-size: 24px;
-            line-height: 55px;
-            float: left;
-            padding: 0px 20px;
-        }
-
-        nav ul{
-            float: left;
-        }
-
-        nav ul li{
-            float: left;
-            list-style: none;
-            position: relative;
-        }
-        *{
-            padding: 0px;
-            margin: 0px;
-            box-sizing: border-box;
-            outline: none;
-        }
-
-        nav ul li a{
-            display: block;
-            font-family: arial;
-            color: #222;
-            font-size: 14px;
-            padding: 22px 14px;
-            text-decoration: none;
-        }
-
-        nav ul li ul{
-            display: none;
-            position: absolute;
-            background-color: #f3f3f3;
-            padding: 10px;
-            border-radius: 0px 0px 4px 4px;
-        }
-
-        nav ul li:hover ul{
-            display: block;
-        }
-
-        nav ul li ul li{
-            width: 100%;
-            border-radius: 8px;
-        }
-
-        nav ul li ul li a{
-            padding: 8px 14px;
-        }
-
-        nav ul li ul li a:hover{
-            background-color: #d8d8d8;
-        }
-
-        nav h1 a{
-            color: black;
-        }
-        body {
-            padding: 25px;
-            background-color: white;
-            color: black;
-        }
-      </style>
     </head>
     <body>
-         <div class="header">
-             <a class="subscribe" style="font-size: 20px;" href="https://www.youtube.com/channel/UCEh6ZxENe-OzEu_tl3t3s-w?sub_confirmation=1" target="_blank">SUBSCRIBE</a>
-         </div>
         <div class="wrapper">
             <div w3-include-html="nav.html"></div>
             <h2 style="font-family: 'Quicksand', sans-serif;">Homepage</h2>
@@ -170,11 +71,15 @@
             </script>
             <script type="text/javascript" src="https://craftrblx.github.io/cookieconsentpopup.js"></script>
             <script> window.start.init({Palette:"palette2",Mode:"banner bottom",Theme:"classic",Message:"This website uses cookies to save your choices like dark mode!",LinkText:"Learn more",Location:"https://craftrblx.github.io/cookies.html",})</script>
-            <div class="custom-control custom-switch">
-                <input type="checkbox" class="custom-control-input" id="darkSwitch">
-                <label class="custom-control-label" for="darkSwitch">🌓Dark Mode🌓</label>
-            </div>
-            <script src="dark-mode-switch.min.js"></script>
+            <link id="style" rel="stylesheet" type="text/css" href="light.css">
+            <script src="dark.js"></script>
+            <button class="light" onclick="swapStyle('light.css')" >
+              <i class="far fa-sun"></i>      
+            </button>
+            <button class="dark" onclick="swapStyle('dark.css')">
+              <i class="far fa-moon"></i>
+            </button>
+            <div w3-include-html="v.html"></div>
         </div>
     </body>      
 </html>
