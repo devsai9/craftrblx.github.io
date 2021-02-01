@@ -89,7 +89,7 @@ body {
 }
    
 ::-webkit-scrollbar {
-  width: 17px;
+  width: 15px;
 }
 
 ::-webkit-scrollbar-track {
