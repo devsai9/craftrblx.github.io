@@ -89,11 +89,11 @@ body {
 }
    
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 17px;
 }
 
 ::-webkit-scrollbar-track {
-  background: #f1f1f1; 
+  background: white; 
 }
 
 ::-webkit-scrollbar-thumb {
