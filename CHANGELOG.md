@@ -44,3 +44,5 @@ Inital Release
 
 **Added:**
 - Website version is displayed on all pages
+
+## CHANGES BEFORE THIS VERSION WERE NOT NOTED
