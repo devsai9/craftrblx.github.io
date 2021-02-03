@@ -42,7 +42,7 @@ Inital Release
 
 ## MAIN: v3.2 - Jan. 25, 2021
 
-**Added:**
+**Added**
 - Website version is displayed on all pages
 
 ## CHANGES BEFORE THIS VERSION WERE NOT NOTED
