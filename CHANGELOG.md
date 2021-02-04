@@ -3,7 +3,7 @@
 
 ## MAIN: v5.0, FE: v3.0, ES: v2.0
 
-**Changes**
+**Added**
 - Publsihed Changelog page
 - Added Changelog page to the all the navigation bars
 
@@ -41,7 +41,7 @@ Initial Release
 
 **Added**
 - Funny English language was publshed 
-- Fuuny English language was made accessible
+- Funny English language was made accessible
 - Spanish language was published 
 - Spanish language was made accessible
 
