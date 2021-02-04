@@ -1,5 +1,5 @@
 # Change log
-## Main = Default English, FE = Funny English, ES = Spanish, All = All of them
+## Main = Default English, FE = Funny English, ES = Spanish
 
 ## MAIN: v5.0, FE: v3.0, ES: v2.0
 
