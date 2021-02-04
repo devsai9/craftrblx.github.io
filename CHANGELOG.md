@@ -4,7 +4,8 @@
 ## MAIN: v5.0, FE: v3.0, ES: v2.0
 
 **Added**
-- Publsihed Changelog page
+- Created & Publsihed Changelog.html page
+- Created & Publsihed official Changelog.md page
 - Added Changelog page to the all the navigation bars
 
 ---
@@ -40,7 +41,7 @@ Initial Release
 ## MAIN: v4.0 - Jan. 31
 
 **Added**
-- Funny English language was publshed 
+- Funny English language was published 
 - Funny English language was made accessible
 - Spanish language was published 
 - Spanish language was made accessible
