@@ -1,6 +1,13 @@
 # Change log
 ## Main = Default English, FE = Funny English, ES = Spanish
 
+## ES: v2.1
+
+**Bug Fixes**
+- Fixed the changelog link in the pages part of the nav from the license page to the changelog page.
+
+---
+
 ## MAIN: v5.0, FE: v3.0, ES: v2.0
 
 **Added**
