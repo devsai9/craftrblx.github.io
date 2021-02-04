@@ -40,8 +40,10 @@ Initial Release
 ## MAIN: v4.0 - Jan. 31
 
 **Added**
-- Funny English language was publshed, and made accessible
-- Spanish language was published, and made accessible
+- Funny English language was publshed 
+- Fuuny English language was made accessible
+- Spanish language was published 
+- Spanish language was made accessible
 
 ---
 
