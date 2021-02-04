@@ -1,14 +1,22 @@
 # Change log
-## Main = Default English, FE = Funny English, ES = Spanish
+## Main = Default English, FE = Funny English, ES = Spanish, All = All of them
 
-## MAIN v4.2 - Feb 3, 2021
+## MAIN: v5.0, FE: v3.0, ES: v2.0
+
+**Changes**
+- Publsihed Changelog page
+- Added Changelog page to the all the navigation bars
+
+---
+
+## MAIN: v4.2 - Feb 3, 2021
 
 **Changes**
 - The BHM image was changed to the CraftRBLX logo as planned on: MAIN CHANGE v4.1
 
 ---
 
-## FE v2.1 & ES v1.1 - Feb 2, 2021 
+## FE: v2.1 & ES: v1.1 - Feb 2, 2021 
 NOTE: THERE WHERE SOME NON DOCUMENTED CHANGES HENCE THE FE VERSION JUMP FROM v1.0 to v2.1
 
 **Changes**
@@ -16,27 +24,24 @@ NOTE: THERE WHERE SOME NON DOCUMENTED CHANGES HENCE THE FE VERSION JUMP FROM v1.
 
 ---
 
-## MAIN v4.1 - Feb 1, 2021
+## MAIN: v4.1 - Feb 1, 2021
 
 **Changes**
 - CraftRBLX text has been swapped for BHM (Black History Month) Image NOTE: BHM IMAGE WILL BE REMOVED FEB. 3, 2021
 
 ---
 
-## FE v1.0 - Jan 31, 2021
+## FE: v1.0 & ES: V1.0 - Jan 31, 2021
 
 Initial Release
-
-## ES v1.0 - Jan 31, 2021
-
-Inital Release
 
 ---
 
 ## MAIN: v4.0 - Jan. 31
 
 **Added**
-- 2 new languages have ben published and made accesible
+- Funny English language was publshed, and made accessible
+- Spanish language was published, and made accessible
 
 ---
 
