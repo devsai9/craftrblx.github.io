@@ -6,7 +6,7 @@
 **Added**
 - Created & Publsihed Changelog.html page
 - Created & Publsihed official Changelog.md page
-- Added Changelog page to the all the navigation bars
+- Added Changelog.html page to the all the navigation bars
 
 ---
 
