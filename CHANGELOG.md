@@ -1,6 +1,16 @@
 # Change log
 ## Main = Default English, FE = Funny English, ES = Spanish
 
+## MAIN: v5.1 - Feb. 5, 2021
+
+**Changes**
+- After your device's width reaches 334px or below the CraftRBLX logo switches to the CraftRBLX text.
+
+**Notes**
+- To view this on computer you can use the dev tools by using f12 or Control(Command on Mac)+Shift+J and then select the "Device emulation" button, then set the device to "responsive". Then change the first value (width) to 333 or below.
+
+---
+
 ## ES: v2.1 - Feb. 4, 2021
 
 **Bug Fixes**
