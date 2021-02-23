@@ -4,7 +4,7 @@
 ## MAIN: v5.2 - Feb 23, 2021
 
 **Changes**
-- craftrblx.github.io/homepage.html now redirects you to the homepage's new URL which is https://craftrblx.github.io/.
+- https://craftrblx.github.io/homepage.html now redirects you to the homepage's new URL which is https://craftrblx.github.io/.
 
 ---
 
