@@ -27,23 +27,23 @@
 ## ES: v2.1 - Feb. 4, 2021
 
 **Bug Fixes**
-- Fixed the changelog link in the pages part of the nav from the license page to the changelog page.
+- Fixed the [changelog](https://craftrblx.github.io/tinyurl/cl) link in the pages part of the nav from the [license](https://craftrblx.github.io/tinyurl/l) page to the changelog page.
 
 ---
 
 ## MAIN: v5.0, FE: v3.0, ES: v2.0 - Feb. 3, 2021
 
 **Added**
-- Created & Publsihed Changelog.html page
-- Created & Publsihed official Changelog.md page
-- Added Changelog.html page to the all the navigation bars
+- Created & Publsihed [Changelog.html](https://craftrblx.github.io/tinyurl/cl) page
+- Created & Publsihed official [Changelog.md](https://craftrblx.github.io/changelog.md) page
+- Added [Changelog.html](https://craftrblx.github.io/tinyurl/cl) page to the all the navigation bars
 
 ---
 
 ## MAIN: v4.2 - Feb 3, 2021
 
 **Changes**
-- The BHM image was changed to the CraftRBLX logo as planned on: MAIN CHANGE v4.1
+- The [BHM image](https://craftrblx.github.io/HBHM_Cropped.png) was changed to the [CraftRBLX logo](https://craftrblx.github.io/rana_crafrblx.png) as planned on: MAIN CHANGE v4.1
 
 ---
 
@@ -51,14 +51,14 @@
 NOTE: THERE WHERE SOME NON DOCUMENTED CHANGES HENCE THE FE VERSION JUMP FROM v1.0 to v2.1
 
 **Changes**
-- CraftRBLX text has been swapped for the CraftRBLX logo
+- [CraftRBLX](https://www.youtube.com/channel/UCEh6ZxENe-OzEu_tl3t3s-w/) text has been swapped for the [CraftRBLX logo](https://craftrblx.github.io/rana_crafrblx.png)
 
 ---
 
 ## MAIN: v4.1 - Feb 1, 2021
 
 **Changes**
-- CraftRBLX text has been swapped for BHM (Black History Month) Image NOTE: BHM IMAGE WILL BE REMOVED FEB. 3, 2021
+- [CraftRBLX](https://www.youtube.com/channel/UCEh6ZxENe-OzEu_tl3t3s-w/) text has been swapped for [BHM (Black History Month Image](https://craftrblx.github.io/HBHM_Cropped.png) NOTE: BHM IMAGE WILL BE REMOVED FEB. 3, 2021
 
 ---
 
@@ -71,10 +71,10 @@ Initial Release
 ## MAIN: v4.0 - Jan. 31
 
 **Added**
-- Funny English language was published 
-- Funny English language was made accessible
-- Spanish language was published 
-- Spanish language was made accessible
+- [Funny English](https://craftrblx.github.io/fe/homepage.html) language was published 
+- [Funny English](https://craftrblx.github.io/fe/homepage.html) language was made accessible
+- [Spanish](https://craftrblx.github.io/es-us/homepage.html) was published 
+- [Spanish](https://craftrblx.github.io/es-us/homepage.html) language was made accessible
 
 ---
 
