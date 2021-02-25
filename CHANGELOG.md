@@ -1,7 +1,7 @@
 # Change log
 ## Main = Default English, FE = Funny English, ES = Spanish
 
-## MAIN v5.3 - Feb 25,2021
+## MAIN v5.3 - Feb 25, 2021
 **Added**
 - Added "[Most Popular CraftRBLX Video](https://www.youtube.com/watch?v=pS3GVPsTW58)" section to the [videos page](https://craftrblx.github.io/videos.html)
 
