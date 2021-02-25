@@ -1,6 +1,12 @@
 # Change log
 ## Main = Default English, FE = Funny English, ES = Spanish
 
+## MAIN v5.5 - Feb 25, 2021
+**Added**
+- Added loading animations to all screens (should last about 1-2 seconds).
+
+---
+
 ## MAIN v5.4 - Feb 25, 2021
 **Added**
 - Added "[Most Popular CraftRBLX Video](https://www.youtube.com/watch?v=pS3GVPsTW58)" section to the [videos page](https://craftrblx.github.io/videos.html)
