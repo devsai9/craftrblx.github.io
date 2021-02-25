@@ -1,6 +1,12 @@
 # Change log
 ## Main = Default English, FE = Funny English, ES = Spanish
 
+## MAIN v5.6 - Feb 25, 2021
+**Changes**
+- Changed the loading screen animation times a little (from 1 second to a little under 1 second).
+
+---
+
 ## MAIN v5.5 - Feb 25, 2021
 **Added**
 - Added loading animations to all screens (should last about 1-2 seconds).
