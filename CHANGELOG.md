@@ -1,6 +1,12 @@
 # Change log
 ## Main = Default English, FE = Funny English, ES = Spanish
 
+## MAIN v5.3 - Feb 24,2021
+**Added**
+- Added "[Most Popular CraftRBLX Video](https://www.youtube.com/watch?v=pS3GVPsTW58)" section to the [videos page](https://craftrblx.github.io/videos.html)
+
+---
+
 ## MAIN v5.3 - Feb 23, 2021
 **Added**
 - Added Tiny URLs to minimize typing in the search bar. Basically the Tiny URL's URL is based off of this https://craftrblx.github.io/tinyurl/page_letter(s). Full Tiny URL reference (https://craftrblx.github.io/tinyurl)
