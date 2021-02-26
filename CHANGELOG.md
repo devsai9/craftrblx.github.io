@@ -1,6 +1,19 @@
 # Change log
 ## Main = Default English, FE = Funny English, ES = Spanish
 
+## MAIN v6.0 - Feb 25,2021
+**Added**
+- Added clickable paths to all pages
+- Added "Videos▼" section to the navigator.
+- Added Videos folder (appears as https://craftrblx.github.io/videos/)
+- Added [MCRAFT](https://craftrblx.github.io/videos/mcraft/index.html) and [MCRAFT Season 1](https://craftrblx.github.io/videos/mcraft/s1/index.html) related pages
+- Added a ["future"](https://craftrblx.github.io/videos/future/fmcraft/index.html) page (for those trying to get to [MCRAFT Seasons](https://craftrblx.github.io/videos/mcraft/index.html) past [Season 1](https://craftrblx.github.io/videos/mcraft/s1/index.html))
+
+**Removed**
+- All languages except english (en-us) have discontinued and have been unlinked from the navigator and the changlog pages (changelog.html, changelog.md)
+
+---
+
 ## MAIN v5.6 - Feb 25, 2021
 **Changes**
 - Changed the loading screen animation times a little (from 1 second to a little under 1 second).
@@ -89,10 +102,10 @@ Initial Release
 ## MAIN: v4.0 - Jan. 31
 
 **Added**
-- [Funny English](https://craftrblx.github.io/fe/homepage.html) language was published 
-- [Funny English](https://craftrblx.github.io/fe/homepage.html) language was made accessible
-- [Spanish](https://craftrblx.github.io/es-us/homepage.html) was published 
-- [Spanish](https://craftrblx.github.io/es-us/homepage.html) language was made accessible
+- Funny English language was published 
+- Funny English language was made accessible
+- Spanish language was published 
+- Spanish language was made accessible
 
 ---
 
