@@ -1,6 +1,12 @@
 # Change log
 ## Main = Default English, FE = Funny English, ES = Spanish
 
+## MAIN v6.1
+**Added**
+- Added Meta Descriptions to all pages (not visible on the page), this is only visible if this website shows up in the google,bing,etc. search results.
+
+---
+
 ## MAIN v6.0 - Feb 25,2021
 **Added**
 - Added clickable paths to all pages
