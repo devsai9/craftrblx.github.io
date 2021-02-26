@@ -10,7 +10,7 @@
 - Added a ["future"](https://craftrblx.github.io/videos/future/fmcraft/index.html) page (for those trying to get to [MCRAFT Seasons](https://craftrblx.github.io/videos/mcraft/index.html) past [Season 1](https://craftrblx.github.io/videos/mcraft/s1/index.html))
 
 **Removed**
-- All languages except english (en-us) have discontinued and have been unlinked from the navigator and the changlog pages (changelog.html, changelog.md)
+- All languages except english (en-us) have discontinued and have been unlinked from the navigator and the changlog pages ([changelog.html](https://craftrblx.github.io/changelog.html), [changelog.md](https://craftrblx.github.io/changelog.md))
 
 ---
 
