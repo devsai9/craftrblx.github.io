@@ -3,7 +3,7 @@
 
 ## MAIN v6.1
 **Added**
-- Added Meta Descriptions to all pages (not visible on the page), this is only visible if this website shows up in the google,bing,etc. search results.
+- Added Meta Descriptions to all pages (not visible on the page), this is only visible if this website shows up in the google, bing, etc. search results.
 
 ---
 
