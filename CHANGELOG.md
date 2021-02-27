@@ -1,13 +1,13 @@
 # Change log
 ## Main = Default English, FE = Funny English, ES = Spanish
 
-## MAIN: v6.2
+## MAIN: v6.2 - Feb 26, 2021
 **Changed**
 - Changed the color of all links (except the path links) to the royal blue color.
 
 ---
 
-## MAIN v6.1
+## MAIN v6.1 - Feb 26, 2021
 **Added**
 - Added Meta Descriptions to all pages (not visible on the page), this is only visible if this website shows up in the google, bing, etc. search results.
 
