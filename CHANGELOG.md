@@ -3,7 +3,7 @@
 
 ## MAIN v6.3 - Mar 10, 2021
 **Changes**
-- Changed the [cookie use policy](https://craftrblx.github.io/cookies.html). SO PLEASE RE-READ THEM
+- Changed the [cookie use policy](https://craftrblx.github.io/cookies.html). SO PLEASE REREAD THEM
 
 ---
 
