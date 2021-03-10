@@ -1,8 +1,14 @@
 # Change log
 ## Main = Default English, FE = Funny English, ES = Spanish
 
+## MAIN v6.3 - Mar 10, 2021
+**Changes**
+- Changed the [cookie use policy](https://craftrblx.github.io/cookies.html). SO PLEASE RE-READ THEM
+
+---
+
 ## MAIN: v6.2 - Feb 26, 2021
-**Changed**
+**Changes**
 - Changed the color of all links (except the path links) to the royal blue color.
 
 ---
