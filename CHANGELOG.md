@@ -1,6 +1,13 @@
 # Change log
 ## Main = Default English, FE = Funny English, ES = Spanish
 
+## MAIN v6.4 - MAr 10, 2021
+**Added**
+- Added [README.md](https://craftrblx.github.io/README.md) to this website's GitHub repository.</li>
+- Added [3 GitHub Wiki pages](https://github.com/CraftRBLX/CraftRBLX.github.io/wiki) to this website's GitHub repository.</li>
+
+---
+
 ## MAIN v6.3 - Mar 10, 2021
 **Changes**
 - Changed the [cookie use policy](https://craftrblx.github.io/cookies.html). SO PLEASE REREAD THEM
