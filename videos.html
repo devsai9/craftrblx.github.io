@@ -183,84 +183,84 @@
             }, 0600);
         </script>
         <style>
-			* {box-sizing: border-box}
-			body {font-family: Verdana, sans-serif; margin:0}
-			.mySlides {display: none}
-			img {vertical-align: middle;}
+		* {box-sizing: border-box}
+		body {font-family: Verdana, sans-serif; margin:0}
+		.mySlides {display: none}
+		img {vertical-align: middle;}
 
-			/* Slideshow container */
-			.slideshow-container {
-			max-width: 565px;
-			position: relative;
-			margin: auto;
-			}
+		/* Slideshow container */
+		.slideshow-container {
+		max-width: 565px;
+		position: relative;
+		margin: auto;
+		}
 
-			/* Next & previous buttons */
-			.prev, .next {
-			cursor: pointer;
-			position: absolute;
-			top: 50%;
-			width: auto;
-			padding: 16px;
-			margin-top: -22px;
-			color: black;
-			font-weight: bold;
-			font-size: 18px;
-			transition: 0.6s ease;
-			border-radius: 0 3px 3px 0;
-			user-select: none;
-			}
+		/* Next & previous buttons */
+		.prev, .next {
+		cursor: pointer;
+		position: absolute;
+		top: 50%;
+		width: auto;
+		padding: 16px;
+		margin-top: -22px;
+		color: black;
+		font-weight: bold;
+		font-size: 18px;
+		transition: 0.6s ease;
+		border-radius: 0 3px 3px 0;
+		user-select: none;
+		}
 
-			/* Position the "next button" to the right */
-			.next {
-			right: 0;
-			border-radius: 3px 0 0 3px;
-			}
+		/* Position the "next button" to the right */
+		.next {
+		right: 0;
+		border-radius: 3px 0 0 3px;
+		}
 
-			/* On hover, add a black background color with a little bit see-through */
-			.prev:hover, .next:hover {
-			background-color: red;
-			}
+		/* On hover, add a black background color with a little bit see-through */
+		.prev:hover, .next:hover {
+		background-color: red;
+		}
 
-			/* The dots/bullets/indicators */
-			.dot {
-			cursor: pointer;
-			height: 15px;
-			width: 15px;
-			margin: 0 2px;
-			background-color: #bbb;
-			border-radius: 50%;
-			display: inline-block;
-			transition: background-color 0.6s ease;
-			}
+		/* The dots/bullets/indicators */
+		.dot {
+		cursor: pointer;
+		height: 15px;
+		width: 15px;
+		margin: 0 2px;
+		background-color: #bbb;
+		border-radius: 50%;
+		display: inline-block;
+		transition: background-color 0.6s ease;
+		}
 
-			.active, .dot:hover {
-			background-color: #717171;
-			}
+		.active, .dot:hover {
+		background-color: #717171;
+		}
 
-			/* Fading animation */
-			.fade {
-			-webkit-animation-name: fade;
-			-webkit-animation-duration: 1.5s;
-			animation-name: fade;
-			animation-duration: 1.5s;
-			}
+		/* Fading animation */
+		.fade {
+		-webkit-animation-name: fade;
+		-webkit-animation-duration: 1.5s;
+		animation-name: fade;
+		animation-duration: 1.5s;
+		}
 
-			@-webkit-keyframes fade {
-			from {opacity: .4} 
-			to {opacity: 1}
-			}
+		@-webkit-keyframes fade {
+		from {opacity: .4} 
+		to {opacity: 1}
+		}
 
-			@keyframes fade {
-			from {opacity: .4} 
-			to {opacity: 1}
-			}
+		@keyframes fade {
+		from {opacity: .4} 
+		to {opacity: 1}
+		}
 
-			/* On smaller screens, decrease text size */
-			@media only screen and (max-width: 300px) {
-			.prev, .next,.text {font-size: 11px}
-			}
-		</style>
+		/* On smaller screens, decrease text size */
+		@media only screen and (max-width: 300px) {
+		.prev, .next,.text {font-size: 11px}
+		}
+	</style>
     </head>
     <body id="body">
         <div id="loader-wrapper">
@@ -274,7 +274,7 @@
             <p><a class="patha" href="https://craftrblx.github.io">craftrblx.github.io</a> > <a class="patha" href="https://craftrblx.github.io/videos.html">videos.html</a></p>
             <h2>Videos</h2>
             <button style="cursor: pointer;" class="View" type="button" onclick=" window.open('https://www.youtube.com/channel/UCEh6ZxENe-OzEu_tl3t3s-w?','_blank')">View Channel</button>
-            <p>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~<p>
+            <p>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~<p><br>
             <div class="slideshow-container">
 
                 <div class="mySlides fade">
@@ -299,10 +299,10 @@
             <br>
 
             <div style="text-align:center">
-                <span class="dot" onclick="currentSlide(1)"></span> 
-                <span class="dot" onclick="currentSlide(2)"></span> 
-                <span class="dot" onclick="currentSlide(3)"></span>
-                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(1)"></span><br>
+                <span class="dot" onclick="currentSlide(2)"></span><br>
+                <span class="dot" onclick="currentSlide(3)"></span><br>
+                <span class="dot" onclick="currentSlide(4)"></span><br>
             </div>
 
             <script>
@@ -332,7 +332,7 @@
                 slides[slideIndex-1].style.display = "block";  
                 dots[slideIndex-1].className += " active";
                 }
-            </script>
+            </script><br>
             <p>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~<p>
             <p>So if you want to support this small channel and make it a big, well-known channel please consider subscribing. Thanks!</p>
             <button style="color: red; cursor: pointer;" type="button" onclick=" window.open('https://www.youtube.com/channel/UCEh6ZxENe-OzEu_tl3t3s-w?sub_confirmation=1','_blank')">SUBSCRIBE</button>
