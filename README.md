@@ -5,9 +5,9 @@ I'm not going to say much because the in-depth info is avaliable [here (in this 
 2. This was mainly created around my [main YouTube channel](https://www.youtube.com/channel/UCEh6ZxENe-OzEu_tl3t3s-w?)
 
 ### OTHER THINGS:
-Website Homepage: https://craftrblx.github.io
-Website Changelog: https://craftrblx.github.io/changelog.html
-Website Changelog (On GitHub): https://github.com/CraftRBLX/CraftRBLX.github.io/blob/master/CHANGELOG.md
+Website Homepage: https://craftrblx.github.io<br>
+Website Changelog: https://craftrblx.github.io/changelog.html<br>
+Website Changelog (On GitHub): https://github.com/CraftRBLX/CraftRBLX.github.io/blob/master/CHANGELOG.md<br>
 
 ### Contact
 My Main Youtube channel: [CraftRBLX](https://www.youtube.com/channel/UCEh6ZxENe-OzEu_tl3t3s-w?)<br>
