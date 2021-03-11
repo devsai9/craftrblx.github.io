@@ -1,6 +1,16 @@
 # Change log
 ## Main = Default English, FE = Funny English, ES = Spanish
 
+## MAIN v6.5 - Mar 11, 2021
+**Announcements**
+- THE VIDEOS PAGE IS NOW OFFICIALLY FINISHED REMODELING
+
+**Added**
+- Added [videos page]() to navigator
+- Added a video carousel to the [videos page]()
+
+---
+
 ## MAIN v6.4 - Mar 10, 2021
 **Added**
 - Added [README.md](https://craftrblx.github.io/README.md) to this website's GitHub repository.</li>
