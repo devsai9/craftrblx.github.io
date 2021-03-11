@@ -182,6 +182,85 @@
                 body.classList.add('loaded')
             }, 0600);
         </script>
+        <style>
+			* {box-sizing: border-box}
+			body {font-family: Verdana, sans-serif; margin:0}
+			.mySlides {display: none}
+			img {vertical-align: middle;}
+
+			/* Slideshow container */
+			.slideshow-container {
+			max-width: 565px;
+			position: relative;
+			margin: auto;
+			}
+
+			/* Next & previous buttons */
+			.prev, .next {
+			cursor: pointer;
+			position: absolute;
+			top: 50%;
+			width: auto;
+			padding: 16px;
+			margin-top: -22px;
+			color: black;
+			font-weight: bold;
+			font-size: 18px;
+			transition: 0.6s ease;
+			border-radius: 0 3px 3px 0;
+			user-select: none;
+			}
+
+			/* Position the "next button" to the right */
+			.next {
+			right: 0;
+			border-radius: 3px 0 0 3px;
+			}
+
+			/* On hover, add a black background color with a little bit see-through */
+			.prev:hover, .next:hover {
+			background-color: red;
+			}
+
+			/* The dots/bullets/indicators */
+			.dot {
+			cursor: pointer;
+			height: 15px;
+			width: 15px;
+			margin: 0 2px;
+			background-color: #bbb;
+			border-radius: 50%;
+			display: inline-block;
+			transition: background-color 0.6s ease;
+			}
+
+			.active, .dot:hover {
+			background-color: #717171;
+			}
+
+			/* Fading animation */
+			.fade {
+			-webkit-animation-name: fade;
+			-webkit-animation-duration: 1.5s;
+			animation-name: fade;
+			animation-duration: 1.5s;
+			}
+
+			@-webkit-keyframes fade {
+			from {opacity: .4} 
+			to {opacity: 1}
+			}
+
+			@keyframes fade {
+			from {opacity: .4} 
+			to {opacity: 1}
+			}
+
+			/* On smaller screens, decrease text size */
+			@media only screen and (max-width: 300px) {
+			.prev, .next,.text {font-size: 11px}
+			}
+		</style>
     </head>
     <body id="body">
         <div id="loader-wrapper">
@@ -195,14 +274,65 @@
             <p><a class="patha" href="https://craftrblx.github.io">craftrblx.github.io</a> > <a class="patha" href="https://craftrblx.github.io/videos.html">videos.html</a></p>
             <h2>Videos</h2>
             <button style="cursor: pointer;" class="View" type="button" onclick=" window.open('https://www.youtube.com/channel/UCEh6ZxENe-OzEu_tl3t3s-w?','_blank')">View Channel</button>
-            <h2>MCRAFT SEASON 1</h2>
-            <a style="color:royalblue;" href="https://www.youtube.com/playlist?list=PL1ddLdpyTRkxUvB0UgodxFYYtNeTmozyO" target="_blank" rel="noopener noreferrer"><button>Link to Playlist</button></a><br>
             <p>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~<p>
-            <h4>THE FIRST EPISODE (EP) OF MCRAFT SEASON 1 (S1)</h4><br>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/gqik66poDWw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <p>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~<p>
-            <h4>MOST POPULAR CRAFTRBLX VIDEO</h4>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/pS3GVPsTW58" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="slideshow-container">
+
+                <div class="mySlides fade">
+                    <iframe width="565" height="315" src="https://www.youtube-nocookie.com/embed/HC73-tFPPkg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+
+                <div class="mySlides fade">
+                    <iframe width="565" height="315" src="https://www.youtube-nocookie.com/embed/pS3GVPsTW58" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+
+                <div class="mySlides fade">
+                    <iframe width="565" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PL1ddLdpyTRkxUvB0UgodxFYYtNeTmozyO" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+
+                <div class="mySlides fade">
+                    <iframe width="565" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PL1ddLdpyTRky4yQ76G1l4vaBsxnpSLPeT" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+		    </div>
+            <br>
+
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span> 
+                <span class="dot" onclick="currentSlide(2)"></span> 
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+            </div>
+
+            <script>
+                var slideIndex = 1;
+                showSlides(slideIndex);
+
+                function plusSlides(n) {
+                showSlides(slideIndex += n);
+                }
+
+                function currentSlide(n) {
+                showSlides(slideIndex = n);
+                }
+
+                function showSlides(n) {
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                var dots = document.getElementsByClassName("dot");
+                if (n > slides.length) {slideIndex = 1}    
+                if (n < 1) {slideIndex = slides.length}
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";  
+                }
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[slideIndex-1].style.display = "block";  
+                dots[slideIndex-1].className += " active";
+                }
+            </script>
             <p>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~<p>
             <p>So if you want to support this small channel and make it a big, well-known channel please consider subscribing. Thanks!</p>
             <button style="color: red; cursor: pointer;" type="button" onclick=" window.open('https://www.youtube.com/channel/UCEh6ZxENe-OzEu_tl3t3s-w?sub_confirmation=1','_blank')">SUBSCRIBE</button>
