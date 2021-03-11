@@ -10,8 +10,8 @@
 - Added a video carousel to the [videos page](https://craftrblx.github.io/videos.html)
 
 **Removed**
-- Removed "Most Popular video" section from the [videos page](https://craftrblx.github.io/videos.html).
-- Removed "MCRAFT Season 1 episode 1" video from the [videos page](https://craftrblx.github.io/videos.html).
+- Removed "[Most Popular video](https://www.youtube.com/watch?v=pS3GVPsTW58)" section from the [videos page](https://craftrblx.github.io/videos.html).
+- Removed "[MCRAFT Season 1 episode 1](https://www.youtube.com/watch?v=gqik66poDWw)" video from the [videos page](https://craftrblx.github.io/videos.html).
 
 ---
 
