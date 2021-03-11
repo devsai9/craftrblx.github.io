@@ -6,8 +6,8 @@
 - THE VIDEOS PAGE IS NOW OFFICIALLY FINISHED REMODELING
 
 **Added**
-- Added [videos page]() to navigator
-- Added a video carousel to the [videos page]()
+- Added [videos page](https://craftrblx.github.io/videos.html) to navigator
+- Added a video carousel to the [videos page](https://craftrblx.github.io/videos.html)
 
 ---
 
