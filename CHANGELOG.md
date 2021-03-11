@@ -3,7 +3,7 @@
 
 ## MAIN v6.5 - Mar 11, 2021
 **Announcements**
-- THE VIDEOS PAGE IS NOW OFFICIALLY FINISHED REMODELING
+- THE [VIDEOS PAGE](https://craftrblx.github.io/videos.html) IS NOW OFFICIALLY FINISHED REMODELING
 
 **Added**
 - Added [videos page](https://craftrblx.github.io/videos.html) to navigator
