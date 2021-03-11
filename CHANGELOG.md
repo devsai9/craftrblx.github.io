@@ -9,6 +9,10 @@
 - Added [videos page](https://craftrblx.github.io/videos.html) to navigator
 - Added a video carousel to the [videos page](https://craftrblx.github.io/videos.html)
 
+**Removed**
+- Removed "Most Popular video" section from the [videos page](https://craftrblx.github.io/videos.html).
+- Removed "MCRAFT Season 1 episode 1" video from the [videos page](https://craftrblx.github.io/videos.html).
+
 ---
 
 ## MAIN v6.4 - Mar 10, 2021
