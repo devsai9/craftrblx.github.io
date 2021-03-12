@@ -1,6 +1,12 @@
 # Change log
 ## Main = Default English, FE = Funny English, ES = Spanish
 
+## MAIN v6.7 - Mar 12, 2021
+**Changes**
+- Changed it so that the loading screen animation, doesn't stop at 0.6 seconds instead it's length depends on how long the page takes to load (which in-turn depends on how fast your Wi-Fi/Ethernet/Hotspot connection is).
+
+---
+
 ## MAIN v6.6 - Mar 11, 2021
 **Added**
 - Added "TOP 5 MOST POPULAR [CRAFTRBLX VIDEOS](https://www.youtube.com/channel/UCEh6ZxENe-OzEu_tl3t3s-w/videos)" section to the [videos page](https://craftrblx.github.io/videos.html).
@@ -69,7 +75,7 @@
 
 ## MAIN v5.6 - Feb 25, 2021
 **Changes**
-- Changed the loading screen animation times a little (from 1 second to a little under 1 second).
+- Changed the loading screen animation times a little (from 1 second to a 0.6 seconds).
 
 ---
 
