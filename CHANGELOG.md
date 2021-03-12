@@ -9,6 +9,9 @@
 **Removed**
 - The one carousel from the [videos page](https://craftrblx.github.io/videos.html).
 
+**Changes**
+- Made all links on all pages (except the path links) the rgb(41,101,213) color.
+
 ---
 
 ## MAIN v6.5 - Mar 11, 2021
