@@ -1,6 +1,16 @@
 # Change log
 ## Main = Default English, FE = Funny English, ES = Spanish
 
+## MAIN v6.6 - Mar 11, 2021
+**Added**
+- Added "TOP 5 MOST POPULAR [CRAFTRBLX VIDEOS](https://www.youtube.com/channel/UCEh6ZxENe-OzEu_tl3t3s-w/videos)" section to the [videos page](https://craftrblx.github.io/videos.html).
+- Added "ALL [CRAFTRBLX PLAYLISTS](https://www.youtube.com/channel/UCEh6ZxENe-OzEu_tl3t3s-w/playlists)" section to the [videos page](https://craftrblx.github.io/videos.html).
+
+**Removed**
+- The one carousel from the [videos page](https://craftrblx.github.io/videos.html).
+
+---
+
 ## MAIN v6.5 - Mar 11, 2021
 **Announcements**
 - THE [VIDEOS PAGE](https://craftrblx.github.io/videos.html) IS NOW OFFICIALLY FINISHED REMODELING
