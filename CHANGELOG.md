@@ -21,6 +21,7 @@
 **Added**
 - Added [videos page](https://craftrblx.github.io/videos.html) to navigator
 - Added a video carousel to the [videos page](https://craftrblx.github.io/videos.html)
+- Made all the website text unhighlightable
 
 **Removed**
 - Removed "[Most Popular video](https://www.youtube.com/watch?v=pS3GVPsTW58)" section from the [videos page](https://craftrblx.github.io/videos.html).
