@@ -1,6 +1,12 @@
 # Change log
 ## Main = Default English, FE = Funny English, ES = Spanish
 
+## MAIN v6.8 - Mar 13, 2021
+**Added**
+- Added some CSS Media queries to adjust the look of the [videos page](https://craftrblx.github.io/videos.html) on Phone/iPhone and Tablet/iPad view.
+
+---
+
 ## MAIN v6.7 - Mar 12, 2021
 **Changes**
 - Changed it so that the loading screen animation, doesn't stop at 0.6 seconds instead it's length depends on how long the page takes to load (which in-turn depends on how fast your Wi-Fi/Ethernet/Hotspot connection is).
