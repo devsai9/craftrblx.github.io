@@ -207,6 +207,15 @@
       <hr class="changeloghr2"></hr><br>
   
          <div class="changelogitem">
+            <h2>MAIN: v6.9 - Mar 16, 2021</h2><br>
+            <p class="changelogp">Changes</p><br>
+             <ul>
+               <li class="cli">Changed the dark mode version of the <a href="https://craftrblx.github.io/changelog.html#lightbutton">light</a> and <a href="https://craftrblx.github.io/changelog.html#darkbutton">dark</a> buttons (for safari compatibility).</li>
+             </ul><br>
+            <hr class="changeloghr1"></hr><br>
+         </div>
+         
+         <div class="changelogitem">
             <h2>MAIN: v6.8 - Mar 13, 2021</h2><br>
             <p class="changelogp">Added</p><br>
              <ul>
@@ -457,10 +466,10 @@
         <script> window.start.init({Palette:"palette2",Mode:"banner bottom",Theme:"classic",Message:"This website uses cookies to save your choices like dark mode!",LinkText:"Learn more",Location:"https://craftrblx.github.io/cookies.html",})</script>
          <link id="style" rel="stylesheet" type="text/css" href="light.css">
         <script src="dark.js"></script>
-        <button class="light" onclick="swapStyle('light.css')" title="Light Mode Button">
+        <button class="light" id="lightbutton" onclick="swapStyle('light.css')" title="Light Mode Button">
           <i class="far fa-sun"></i>      
         </button>
-        <button class="dark" onclick="swapStyle('dark.css')" title="Dark Mode Button">
+        <button class="dark" id="darkbutton" onclick="swapStyle('dark.css')" title="Dark Mode Button">
           <i class="far fa-moon"></i>
         </button>
         <div class="changelogTemp" id="version-area">
