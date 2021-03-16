@@ -1,3 +1,4 @@
+/* Subscribe header at the top */
 .subscribe {
     display: block;
     width: 24%;
@@ -14,6 +15,7 @@
     cursor: pointer;
 }
 
+/* For the Navigation bar below the subscribe header */
 nav{
     width: 100%;
     height: 120px;
@@ -83,12 +85,14 @@ nav h1 a{
     color: white;
 }
 
+/* For body */
 body {
     padding: 25px;
     background-color: black;
     color: white;
 }
-   
+
+/* Website Scroll bar design & color(s) */
 ::-webkit-scrollbar {
   width: 13px;
 }
@@ -104,4 +108,29 @@ body {
 
 ::-webkit-scrollbar-thumb:hover {
   background: #555; 
+}
+
+/* To make sure you can't highlight anything on the page */
+*{
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+}
+
+.texta{
+    color:white;
+    text-align: center;
+}
+
+/* Mainly For Safari Users */
+
+.dark{ 
+    background-color: black;
+    color: white;
+}
+
+.light{
+    background-color: black;
+    color:white;
 }
