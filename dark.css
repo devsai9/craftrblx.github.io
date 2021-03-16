@@ -121,9 +121,11 @@ body {
 /* For Safari Users */
 
 .dark{ 
+    background-color: black;
     color: white;
 }
 
 .light{
+    background-color: black;
     color:white;
 }
