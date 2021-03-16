@@ -1,3 +1,4 @@
+/* Subscribe header at the top */
 .subscribe {
     display: block;
     width: 24%;
@@ -14,6 +15,7 @@
     cursor: pointer;
 }
 
+/* For the Navigation bar below the subscribe header */
 nav{
     width: 100%;
     height: 120px;
@@ -82,12 +84,15 @@ nav ul li ul li a:hover{
 nav h1 a{
     color: black;
 }
+
+/* For body */
 body {
     padding: 25px;
     background-color: white;
     color: black;
 }
-   
+
+/* Website Scroll bar design & color(s) */
 ::-webkit-scrollbar {
   width: 13px;
 }
@@ -105,6 +110,7 @@ body {
   background: #555; 
 }
 
+/* To make sure you can't highlight anything on the page */
 *{
     -webkit-user-select: none; /* Safari */        
     -moz-user-select: none; /* Firefox */
