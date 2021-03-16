@@ -1,6 +1,12 @@
 # Change log
 ## Main = Default English, FE = Funny English, ES = Spanish
 
+## MAIN v6.9 - Mar 16, 2021
+**Changes**
+- Changed the dark mode version of the light and dark buttons (for safari compatibility).
+
+---
+
 ## MAIN v6.8 - Mar 13, 2021
 **Added**
 - Added some CSS Media queries to adjust the look of the [videos page](https://craftrblx.github.io/videos.html) on Phone/iPhone and Tablet/iPad view.
