@@ -13,6 +13,7 @@ Website Changelog (On GitHub): https://github.com/CraftRBLX/CraftRBLX.github.io/
 My Main Youtube channel: [CraftRBLX](https://www.youtube.com/channel/UCEh6ZxENe-OzEu_tl3t3s-w?)<br>
 My Coding YouTube Channel: [Code Vibes](https://www.youtube.com/channel/UC2OUBrGSPqJBm4A32YVbe9A)<br>
 My Discord Server: [The CraftRBLX Official Fan Discord Server](https://discord.gg/BHhV8fH​)<br>
+My Roblox Group: [CraftRBLX Official Fan Roblox Group](https://www.roblox.com/groups/10295625/CraftRBLX-Official-Fan-Roblox-Group#!/about)<br>
 Website: [The CraftRBLX Official Website](https://craftrblx.github.io)<br>
 Email: Not Public<br>
-Phone Number: Not Public
+Phone Number: Non-existant
