@@ -1,6 +1,17 @@
 # Change log
 ## Main = Default English, FE = Funny English, ES = Spanish
 
+## MAIN v7.0 - Apr 8, 2021
+**Added**
+- Added CraftRBLX section to nav bar
+- Added Support CraftRBLX page
+
+**Changes**
+- Moved the "All videos" link from the videos section in the nav bar to the CraftRBLX section in the nav bar
+- Moved the logo back into the correct place
+
+---
+
 ## MAIN v6.9 - Mar 16, 2021
 **Changes**
 - Changed the dark mode version of the light and dark buttons (for safari compatibility).
