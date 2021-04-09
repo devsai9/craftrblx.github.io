@@ -7,7 +7,7 @@
 - Added "[Support CraftRBLX](https://craftrblx.github.io/support.html)" page
 
 **Changes**
-- Moved the "All videos" link from the videos section in the nav bar to the CraftRBLX section in the nav bar
+- Moved the "[All videos](https://www.youtube.com/channel/UCEh6ZxENe-OzEu_tl3t3s-w/videos)" link from the "videos" section in the nav bar to the "[CraftRBLX](https://www.youtube.com/channel/UCEh6ZxENe-OzEu_tl3t3s-w?)" section in the nav bar
 - Moved the logo back into the correct place
 
 ---
