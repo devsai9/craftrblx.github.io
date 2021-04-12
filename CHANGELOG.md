@@ -1,6 +1,14 @@
 # Change log
 ## Main = Default English, FE = Funny English, ES = Spanish
 
+## MAIN v7.1 - Apr 12, 2021
+**Added**
+- Made [allies page](https://craftrblx.github.io/allies.html)
+- Published [allies page](https://craftrblx.github.io/allies.html)
+- Made [allies page](https://craftrblx.github.io/allies.html) public in the "[CraftRBLX](https://www.youtube.com/channel/UCEh6ZxENe-OzEu_tl3t3s-w)" section of the nav bar
+
+---
+
 ## MAIN v7.0 - Apr 8, 2021
 **Added**
 - Added "[CraftRBLX](https://www.youtube.com/channel/UCEh6ZxENe-OzEu_tl3t3s-w?)" section to nav bar
