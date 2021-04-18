@@ -1,6 +1,12 @@
 # Change log
 ## Main = Default English, FE = Funny English, ES = Spanish
 
+## MAIN v7.2 - Apr 17, 2021
+**Added**
+- Added blogs to the [homepage](https://craftrblx.github.io/)
+
+---
+
 ## MAIN v7.1 - Apr 12, 2021
 **Added**
 - Made [allies page](https://craftrblx.github.io/allies.html)
