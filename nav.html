@@ -81,6 +81,31 @@
             blogp{
                 font-size: 16px;
             }
+            
+            /* The alert message box */
+            .alert {
+              padding: 20px;
+              background-color: #f44336; /* Red */
+              color: white;
+              margin-bottom: 15px;
+            }
+
+            /* The close button */
+            .closebtn {
+              margin-left: 15px;
+              color: white;
+              font-weight: bold;
+              float: right;
+              font-size: 22px;
+              line-height: 20px;
+              cursor: pointer;
+              transition: 0.3s;
+            }
+
+            /* When moving the mouse over the close button */
+            .closebtn:hover {
+              color: black;
+            }
             @media only screen and (max-width: 768px) {
                 .light{
                     margin-right: 10px;
@@ -184,5 +209,9 @@
                  </li>
             </ul>
         </nav>
+        <div class="alert">
+            <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+            We are so close to 100 subs so please subscribe as its free and helps a ton subscriber progress (out of 100 subs):<progress value="75" max="100"></progress>
+        </div>
     </body>
 </html>
