@@ -233,11 +233,23 @@
             })
             
             function markasread(){
-                document.getElementById('blogbtn').innerHTML = "1,000,000,000,000";
+                x = document.getElementById('blogbtn').innerHTML;
+                
+                if (x == "4"){
+                    x.innerHTML = "1,000,000,000,000"
+                } else {
+                    x.innerHTML = "4"
+                }
             }
             
             function betatoalpha(){
-                document.getElementById('betabtn').innerHTML = "Alpha";
+                x = document.getElementById('betabtn').innerHTML;
+                
+                if (x == "Alpha"){
+                    x.innerHTML = "Beta"
+                } else {
+                    x.innerHTML = "Alpha"
+                }
             }
         </script>
         <script>
