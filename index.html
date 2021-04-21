@@ -237,8 +237,10 @@
                 
                 if (x.innerHTML == '4'){
                     x.innerHTML = '1,000,000,000,000';
-                } else {
-                    x.innerHTML = '4';
+                } else if (x == '1,000,000,000,000'){
+                    x.innerHTML = '0';
+                } else if (x == '0'){
+                    x.innerHTML = '4'
                 }
             }
             
