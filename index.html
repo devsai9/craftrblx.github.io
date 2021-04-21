@@ -246,8 +246,10 @@
                 x = document.getElementById('betabtn');
                 
                 if (x.innerHTML == 'Beta'){
+                    x.innerHTML = 'Indev';
+                } else if (x.innerHTML == 'Indev'){
                     x.innerHTML = 'Alpha';
-                } else {
+                } else if (x.innerHTML == 'Alpha'){
                     x.innerHTML = 'Beta';
                 }
             }
