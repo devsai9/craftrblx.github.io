@@ -188,10 +188,17 @@
                 }
             }
         </style>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
         <script>
             window.addEventListener('load', function(){
                 body.classList.add('loaded')
             })
+            
+            function markasread(){
+                document.getElementById('blogbtn').innerHTML = 0;
+            }
         </script>
         <script>
             document.createElement("blogdate"); 
@@ -233,7 +240,7 @@
             <div w3-include-html="v.html"></div>
             <br>
             <br>
-            <h2>Blogs:</h2><br>
+            <h2>Blogs:</h2><span class="badge"><button style="background-color: transparent; color: white; border: none;" id="blogbtn" onclick="markasread()">4</button></span><br>
             <div class="blog-ctn" style="width:250px;float:left;padding:0px 10px 0px 10px;">
                 <h2>CraftRBLX has hot 80 subs! YAYYYY</h2><blogdate>April 17, 2021</blogdate><br>
                 <blogp><a href="https://bit.ly/38LFrAB" style="color: rgb(41,101,213);" target="_blank">CraftRBLX</a> has hit 80 subs! Thank you to all of its supporters/subscribers for this memorable moment. And we're trying to get to 100 subs for a custom channel URL, so if you haven't yet please subscribe as it's free and helps out a ton!: <a href="https://bit.ly/38LFrAB" style="color: rgb(41,101,213);" target="_blank">https://bit.ly/38LFrAB</a></blogp><p></p><br class="blogbr">
