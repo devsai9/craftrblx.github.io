@@ -1,7 +1,7 @@
 # Change log
 ## Main = Default English, FE = Funny English, ES = Spanish
 
-## MAIN v7.3 - Apr 20, 2021
+## MAIN v7.3 (Easter egg update 1) - Apr 20, 2021
 **Added**
 - Added a "Beta" tag/label to the blogs section on the [homepage](https://craftrblx.github.io/)
 - Added a blog posts number (basically a number that tells you how many blog posts there are) to the blogs section on the [homepage](https://craftrblx.github.io/)
