@@ -139,7 +139,7 @@ body {
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 
 .cookie-wrapper{
-  position: absolute;
+  position: sticky;
   top: 30px;
   left: 30px;
   max-width: 365px;
