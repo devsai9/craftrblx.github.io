@@ -1,6 +1,15 @@
 # Change log
 ## Main = Default English, FE = Funny English, ES = Spanish
 
+## MAIN v7.4 (Easter egg update 2) - Apr 21, 2021
+**Changes**
+- Changed all of the easter eggs to include more stuff in them
+
+**Added**
+- Added a special 🍪 button ;)
+
+---
+
 ## MAIN v7.3 (Easter egg update 1) - Apr 20, 2021
 **Added**
 - Added a "Beta" tag/label to the blogs section on the [homepage](https://craftrblx.github.io/)
