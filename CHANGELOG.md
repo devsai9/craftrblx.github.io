@@ -6,7 +6,9 @@
 - Changed all of the easter eggs to include more stuff in them
 
 **Added**
-- Added a special 🍪 button ;)
+- Added another easter egg
+
+Easter Egg Total: 3
 
 ---
 
@@ -18,6 +20,8 @@
 
 **Changes**
 - Changed the favicon of all the pages to have a transparent background
+
+Easter Egg Total: 2
 
 ---
 
