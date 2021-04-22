@@ -2,11 +2,11 @@
 ## Main = Default English, FE = Funny English, ES = Spanish
 
 ## MAIN v7.4 (Easter egg update 2) - Apr 21, 2021
-**Changes**
-- Changed all of the easter eggs to include more stuff in them
-
 **Added**
 - Added another easter egg
+
+**Changes**
+- Changed all of the easter eggs to include more stuff in them
 
 Easter Egg Total: 3
 
