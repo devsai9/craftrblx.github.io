@@ -283,8 +283,6 @@
             <script>
                 includeHTML();
             </script>
-            <script type="text/javascript" src="https://craftrblx.github.io/cookieconsentpopup.js"></script>
-            <script> window.start.init({Palette:"palette2",Mode:"banner bottom",Theme:"classic",Message:"This website uses cookies to save your choices like dark mode!",LinkText:"Learn more",Location:"https://craftrblx.github.io/cookies.html",})</script>
             <link id="style" rel="stylesheet" type="text/css" href="/assets/light.css">
             <script src="/assets/dark.js"></script>
             <button class="light" onclick="swapStyle('light.css')" title="Light Mode Button">
@@ -293,6 +291,33 @@
             <button class="dark" onclick="swapStyle('dark.css')" title="Dark Mode Button">
               <i class="far fa-moon"></i>
             </button>
+           <div class="cookie-wrapper">
+                <img src="cookie.png" alt="">
+                <div class="cookie-content">
+                      <header>Cookies Consent</header>
+                      <p>This website use cookies to ensure you get the best experience on our website.</p>
+                      <div class="cookie-buttons">
+                            <button class="item">I understand</button>
+                            <a href="#" class="item">Learn more</a>
+                      </div>
+                </div>
+           </div>
+          <script>
+            const cookieBox = document.querySelector(".cookie-wrapper"),
+            acceptBtn = cookieBox.querySelector(".cookie-buttons");
+
+            acceptBtn.onclick = ()=>{
+              document.cookie = "cookieConsentStatus=accepted";
+              if(document.cookie){ //if cookie is set
+                cookieBox.classList.add("hide"); //hide cookie box
+              }else{ //if cookie not set then alert an error
+                alert("Cookie can't be set! Please unblock this site from the cookie setting of your browser.");
+              }
+            }
+            let checkCookie = document.cookie.indexOf("cookieConsentStatus=accpted"); //checking our cookie
+            //if cookie is set then hide the cookie box else show it
+            checkCookie != -1 ? cookieBox.classList.add("hide") : cookieBox.classList.remove("hide");
+          </script>
             <br>
             <div w3-include-html="v.html" style="display: inline-block; margin-right: 5px;"></div><button onclick=" window.open('https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ?autoplay=1','_blank')" style="border:none; background-color: transparent; cursor: pointer; font-size: 5px;" title="CLICK ME">🍪</button>
             <br>
