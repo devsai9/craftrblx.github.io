@@ -1,6 +1,13 @@
 # Change log
 ## Main = Default English, FE = Funny English, ES = Spanish
 
+## MAIN v7.5 - Apr 29, 2021
+**Added**
+- Made it so that when you hover over a link in the blog section of the [homepage](https://craftrblx.github.io/), the underline appears. Otherwise it's hidden.
+- Added a "[Read Full Blog...]" button to some of the blogs. This button will take you to a page with the full details & content of the blog.
+
+---
+
 ## MAIN v7.4 (Easter egg update 2) - Apr 21, 2021
 **Added**
 - Added another easter egg
