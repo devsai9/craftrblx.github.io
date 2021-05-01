@@ -179,59 +179,73 @@
         </style>
         <script>
             window.addEventListener('load', function(){
-                body.classList.add('loaded')
+                var noscript = document.getElementById('invisible-noscript');
+                noscript.style="visibility: visible;"
+            })
+            
+            window.addEventListener('load', function(){
+                body.classList.add('loaded');
             })
         </script>
     </head>
     <body id="body">
-        <div id="loader-wrapper">
-            <div id="loader"></div>
-
-            <div class="loader-section section-left"></div>
-            <div class="loader-section section-right"></div>
-        </div>
-        <div class="content">
-            <div w3-include-html="nav.html"></div>
-            <p><a class="patha" href="https://craftrblx.github.io">craftrblx.github.io</a> > <a class="patha" href="https://craftrblx.github.io/license.html">license.html</a></p>
-            <h2 style="font-family: 'Quicksand', sans-serif;">Website Copyright ©</h2><br>
+        
+        <noscript style="z-index:9999;">
+            <h1>⚠ Please enable Javascript in your browser settings, or view the site on a javascript-supporting browser ⚠</h1>
             <br>
-            <p>MIT License <br>
-              <br>
-              Copyright (c) 2021 CraftRBLX <br>
-              <br>
-              Permission is hereby granted, free of charge, to any person obtaining a copy
-              of this software and associated documentation files (the "Software"), to deal
-              in the Software without restriction, including without limitation the rights
-              to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-              copies of the Software, and to permit persons to whom the Software is
-              furnished to do so, subject to the following conditions: <br>
-              <br>
-              The above copyright notice and this permission notice shall be included in all
-              copies or substantial portions of the Software. <br>
-              <br>
-              THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-              IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-              FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-              AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-              LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-              OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-              SOFTWARE.
-            </p><br>
-            <p>Official <a href="https://craftrblx.github.io/LICENSE.md" style="color: rgb(41,101,213);">LICENSE.md</a></p><br>
-            <script>
-                includeHTML();
-            </script>
-            <script type="text/javascript" src="https://craftrblx.github.io/cookieconsentpopup.js"></script>
-            <script> window.start.init({Palette:"palette2",Mode:"banner bottom",Theme:"classic",Message:"This website uses cookies to save your choices like dark mode!",LinkText:"Learn more",Location:"https://craftrblx.github.io/cookies.html",})</script>
-            <link id="style" rel="stylesheet" type="text/css" href="/assets/light.css">
-            <script src="/assets/dark.js"></script>
-            <button class="light" onclick="swapStyle('light.css')" title="Light Mode Button">
-              <i class="far fa-sun"></i>      
-            </button>
-            <button class="dark" onclick="swapStyle('dark.css')" title="Dark Mode Button">
-              <i class="far fa-moon"></i>
-            </button>
-            <div w3-include-html="v.html"></div>
+            <h2>If you enable Javascript, your site experience will be enhanced (without Javascript there's no dark mode, easter eggs, or navigator). So please consider enabling Javascript.</h2>
+        </noscript>    
+        
+        <div id="invisible-noscript" style="visibility: hidden;">
+            <div id="loader-wrapper">
+                <div id="loader"></div>
+
+                <div class="loader-section section-left"></div>
+                <div class="loader-section section-right"></div>
+            </div>
+            <div class="content">
+                <div w3-include-html="nav.html"></div>
+                <p><a class="patha" href="https://craftrblx.github.io">craftrblx.github.io</a> > <a class="patha" href="https://craftrblx.github.io/license.html">license.html</a></p>
+                <h2 style="font-family: 'Quicksand', sans-serif;">Website Copyright ©</h2><br>
+                <br>
+                <p>MIT License <br>
+                  <br>
+                  Copyright (c) 2021 CraftRBLX <br>
+                  <br>
+                  Permission is hereby granted, free of charge, to any person obtaining a copy
+                  of this software and associated documentation files (the "Software"), to deal
+                  in the Software without restriction, including without limitation the rights
+                  to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+                  copies of the Software, and to permit persons to whom the Software is
+                  furnished to do so, subject to the following conditions: <br>
+                  <br>
+                  The above copyright notice and this permission notice shall be included in all
+                  copies or substantial portions of the Software. <br>
+                  <br>
+                  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+                  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+                  FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+                  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+                  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+                  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+                  SOFTWARE.
+                </p><br>
+                <p>Official <a href="https://craftrblx.github.io/LICENSE.md" style="color: rgb(41,101,213);">LICENSE.md</a></p><br>
+                <script>
+                    includeHTML();
+                </script>
+                <script type="text/javascript" src="https://craftrblx.github.io/cookieconsentpopup.js"></script>
+                <script> window.start.init({Palette:"palette2",Mode:"banner bottom",Theme:"classic",Message:"This website uses cookies to save your choices like dark mode!",LinkText:"Learn more",Location:"https://craftrblx.github.io/cookies.html",})</script>
+                <link id="style" rel="stylesheet" type="text/css" href="/assets/light.css">
+                <script src="/assets/dark.js"></script>
+                <button class="light" onclick="swapStyle('light.css')" title="Light Mode Button">
+                  <i class="far fa-sun"></i>      
+                </button>
+                <button class="dark" onclick="swapStyle('dark.css')" title="Dark Mode Button">
+                  <i class="far fa-moon"></i>
+                </button>
+                <div w3-include-html="v.html"></div>
+            </div>
         </div>
     </body>      
 </html>
