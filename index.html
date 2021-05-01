@@ -235,8 +235,7 @@
         </style>
         <script>
             window.addEventListener('load', function(){
-                var noscript = document.getElementsByClassName('invisible-noscript')
-                noscript.classList.remove('invisible-noscript')
+                var noscript = document.getElementById('invisible-noscript').removeAttribute(Id)
                 
                 body.classList.add('loaded');
             })
@@ -274,9 +273,9 @@
         <noscript style="z-index:9999;">
             <h1>⚠ Please enable Javascript in your browser settings, or view the site on a javascript-supporting browser ⚠</h1>
             <br>
-            <h2>If you enable Javascript, your site experience will be enhanced (without Javascript there's no dark mode, easter eggs, or navigator). So please consider enableing Javascript.</h2>
+            <h2>If you enable Javascript, your site experience will be enhanced (without Javascript there's no dark mode, easter eggs, or navigator). So please consider enabling Javascript.</h2>
         </noscript>     
-        <div class="invisible-noscript">
+        <div id="invisible-noscript">
             <div id="loader-wrapper">
                 <div id="loader"></div>
                 <div class="loader-section section-left"></div>
