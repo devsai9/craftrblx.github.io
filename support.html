@@ -178,45 +178,59 @@
             }
         </style>
         <script>
+           window.addEventListener('load', function(){
+                var noscript = document.getElementById('invisible-noscript');
+                noscript.style="visibility: visible;"
+            })
+            
             window.addEventListener('load', function(){
-                body.classList.add('loaded')
+                body.classList.add('loaded');
             })
         </script>
     </head>
     <body id="body">
-        <div id="loader-wrapper">
-            <div id="loader"></div>
+        
+        <noscript style="z-index:9999;">
+            <h1>⚠ Please enable Javascript in your browser settings, or view the site on a javascript-supporting browser ⚠</h1>
+            <br>
+            <h2>If you enable Javascript, your site experience will be enhanced (without Javascript there's no dark mode, easter eggs, or navigator). So please consider enabling Javascript.</h2>
+        </noscript>    
+        
+        <div id="invisible-noscript" style="visibility: hidden;">
+            <div id="loader-wrapper">
+                <div id="loader"></div>
 
-            <div class="loader-section section-left"></div>
-            <div class="loader-section section-right"></div>
-        </div>
-        <div class="content" id="content">
-            <div w3-include-html="nav.html"></div>
-            <p><a class="patha" href="https://craftrblx.github.io">craftrblx.github.io</a> > <a class="patha" href="https://craftrblx.github.io/index.html">support.html</a></p>
-            <h2 style="font-family: 'Quicksand', sans-serif;">Support CraftRBLX</h2>
-            <p>To support me there are 2 things you can do...</p><br>
-            <p>You see I've always had this dream of getting a good, big, amazing channel. I was not able to get the big part on my old channel (TechMCGamez). So I shut it down and started what I feel--no, what is a good, amazing channel. We are working towards 100 subscribers to get the "big" part. So if you haven't yet contributed to this goal then please subscribe if you want to help my dreams.</p><br>
-            <p>1. Subscribe to CraftRBLX <a href="https://bit.ly/38LFrAB" style="color:rgb(41,101,213);">https://bit.ly/38LFrAB</a></p><br>
-            <p>We also have a goal of getting 20 members on The CraftRBLX Official Fan Discord server by June 2021. So if you want to help this goal too please consider joining The CraftRBLX Official Fan Discord server.</p><br>
-            <p>2. Join The CraftRBKX Official Fan Discord server <a href="https://discord.com/invite/BHhV8fH" style="color:rgb(41,101,213);">https://discord.com/invite/BHhV8fH</a></p><br>
-            <p>We also have a goal of getting 20 members on the CraftRBLX Official Fan Roblox Group by June 2021. So join below to contribute!</p><br>
-            <p>3. Join the CraftRBLX Official Fan Rolox Group <a href="https://www.roblox.com/groups/10295625/CraftRBLX-Official-Fan-Roblox-Group#!/about" style="color:rgb(41,101,213);">https://www.roblox.com/groups/10295625/CraftRBLX-Official-Fan-Roblox-Group#!/about</a></p><br>
-            <p>If you did all 3 things, then in the "📜roles📜" chat in my Discord server, say "I did all 3" to receive a role that will display separately from the other roles, and comes with some free perks, as my "Thank you".</p><br>
-            
-            <script>
-                includeHTML();
-            </script>
-            <script type="text/javascript" src="https://craftrblx.github.io/cookieconsentpopup.js"></script>
-            <script> window.start.init({Palette:"palette2",Mode:"banner bottom",Theme:"classic",Message:"This website uses cookies to save your choices like dark mode!",LinkText:"Learn more",Location:"https://craftrblx.github.io/cookies.html",})</script>
-            <link id="style" rel="stylesheet" type="text/css" href="/assets/light.css">
-            <script src="/assets/dark.js"></script>
-            <button class="light" onclick="swapStyle('light.css')" title="Light Mode Button">
-              <i class="far fa-sun"></i>      
-            </button>
-            <button class="dark" onclick="swapStyle('dark.css')" title="Dark Mode Button">
-              <i class="far fa-moon"></i>
-            </button>
-            <div w3-include-html="v.html"></div>
+                <div class="loader-section section-left"></div>
+                <div class="loader-section section-right"></div>
+            </div>
+            <div class="content" id="content">
+                <div w3-include-html="nav.html"></div>
+                <p><a class="patha" href="https://craftrblx.github.io">craftrblx.github.io</a> > <a class="patha" href="https://craftrblx.github.io/index.html">support.html</a></p>
+                <h2 style="font-family: 'Quicksand', sans-serif;">Support CraftRBLX</h2>
+                <p>To support me there are 2 things you can do...</p><br>
+                <p>You see I've always had this dream of getting a good, big, amazing channel. I was not able to get the big part on my old channel (TechMCGamez). So I shut it down and started what I feel--no, what is a good, amazing channel. We are working towards 100 subscribers to get the "big" part. So if you haven't yet contributed to this goal then please subscribe if you want to help my dreams.</p><br>
+                <p>1. Subscribe to CraftRBLX <a href="https://bit.ly/38LFrAB" style="color:rgb(41,101,213);">https://bit.ly/38LFrAB</a></p><br>
+                <p>We also have a goal of getting 20 members on The CraftRBLX Official Fan Discord server by June 2021. So if you want to help this goal too please consider joining The CraftRBLX Official Fan Discord server.</p><br>
+                <p>2. Join The CraftRBKX Official Fan Discord server <a href="https://discord.com/invite/BHhV8fH" style="color:rgb(41,101,213);">https://discord.com/invite/BHhV8fH</a></p><br>
+                <p>We also have a goal of getting 20 members on the CraftRBLX Official Fan Roblox Group by June 2021. So join below to contribute!</p><br>
+                <p>3. Join the CraftRBLX Official Fan Rolox Group <a href="https://www.roblox.com/groups/10295625/CraftRBLX-Official-Fan-Roblox-Group#!/about" style="color:rgb(41,101,213);">https://www.roblox.com/groups/10295625/CraftRBLX-Official-Fan-Roblox-Group#!/about</a></p><br>
+                <p>If you did all 3 things, then in the "📜roles📜" chat in my Discord server, say "I did all 3" to receive a role that will display separately from the other roles, and comes with some free perks, as my "Thank you".</p><br>
+
+                <script>
+                    includeHTML();
+                </script>
+                <script type="text/javascript" src="https://craftrblx.github.io/cookieconsentpopup.js"></script>
+                <script> window.start.init({Palette:"palette2",Mode:"banner bottom",Theme:"classic",Message:"This website uses cookies to save your choices like dark mode!",LinkText:"Learn more",Location:"https://craftrblx.github.io/cookies.html",})</script>
+                <link id="style" rel="stylesheet" type="text/css" href="/assets/light.css">
+                <script src="/assets/dark.js"></script>
+                <button class="light" onclick="swapStyle('light.css')" title="Light Mode Button">
+                  <i class="far fa-sun"></i>      
+                </button>
+                <button class="dark" onclick="swapStyle('dark.css')" title="Dark Mode Button">
+                  <i class="far fa-moon"></i>
+                </button>
+                <div w3-include-html="v.html"></div>
+            </div>
         </div>
     </body>      
 </html>
