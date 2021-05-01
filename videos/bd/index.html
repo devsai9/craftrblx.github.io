@@ -178,42 +178,56 @@
             }
         </style>
         <script>
+           window.addEventListener('load', function(){
+                var noscript = document.getElementById('invisible-noscript');
+                noscript.style="visibility: visible;"
+            })
+            
             window.addEventListener('load', function(){
-                body.classList.add('loaded')
+                body.classList.add('loaded');
             })
         </script>
         <base href="https://craftrblx.github.io/">
     </head>
     <body id="body">
-        <div id="loader-wrapper">
-            <div id="loader"></div>
-
-            <div class="loader-section section-left"></div>
-            <div class="loader-section section-right"></div>
-        </div>
-        <div class="content">
-            <div w3-include-html="https://craftrblx.github.io/nav.html"></div>
-            <p><a class="patha" href="https://craftrblx.github.io">craftrblx.github.io</a> > videos > <a class="patha" href="https://craftrblx.github.io/videos/bd">bd</a> > <a class="patha" href="https://craftrblx.github.io/bd/index.html">index.html</a></p>
-            <h1>BEYBLADE DISTRICT</h1>
-            <a style="color: rgb(41,101,213);" href="https://youtube.com/playlist?list=PL1ddLdpyTRky4yQ76G1l4vaBsxnpSLPeT">Link to Beyblade District (BD) Playlist.</a>
-            <p>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</p>
-            <h2>What is Beyblade District?</h2>
-            <p>Supposed to act like a sub channel of CraftRBLX (but actually is just a playlist), Beyblade District (BD) is where I will be posting Beyblade videos.<br>So if you want to see Beyblade videos, the BD playlist is where you wanna go.</p>
+        
+        <noscript style="z-index:9999;">
+            <h1>⚠ Please enable Javascript in your browser settings, or view the site on a javascript-supporting browser ⚠</h1>
             <br>
-            <script>
-                includeHTML();
-            </script>
-            <script type="text/javascript" src="https://craftrblx.github.io/cookieconsentpopup.js"></script>
-            <script> window.start.init({Palette:"palette2",Mode:"banner bottom",Theme:"classic",Message:"This website uses cookies to save your choices like dark mode!",LinkText:"Learn more",Location:"https://craftrblx.github.io/cookies.html",})</script><br>
-             <link id="style" rel="stylesheet" type="text/css" href="/assets/light.css">
-            <script src="/assets/dark.js"></script>
-            <button class="light" onclick="swapStyle('light.css')" title="Light Mode Button">
-              <i class="far fa-sun"></i>      
-            </button>
-            <button class="dark" onclick="swapStyle('dark.css')" title="Dark Mode Button">
-              <i class="far fa-moon"></i>
-            </button>
-            <div w3-include-html="https://craftrblx.github.io/v.html"></div>
+            <h2>If you enable Javascript, your site experience will be enhanced (without Javascript there's no dark mode, easter eggs, or navigator). So please consider enabling Javascript.</h2>
+        </noscript>    
+        
+        <div id="invisible-noscript" style="visibility: hidden;">
+            <div id="loader-wrapper">
+                <div id="loader"></div>
+
+                <div class="loader-section section-left"></div>
+                <div class="loader-section section-right"></div>
+            </div>
+            <div class="content">
+                <div w3-include-html="https://craftrblx.github.io/nav.html"></div>
+                <p><a class="patha" href="https://craftrblx.github.io">craftrblx.github.io</a> > videos > <a class="patha" href="https://craftrblx.github.io/videos/bd">bd</a> > <a class="patha" href="https://craftrblx.github.io/bd/index.html">index.html</a></p>
+                <h1>BEYBLADE DISTRICT</h1>
+                <a style="color: rgb(41,101,213);" href="https://youtube.com/playlist?list=PL1ddLdpyTRky4yQ76G1l4vaBsxnpSLPeT">Link to Beyblade District (BD) Playlist.</a>
+                <p>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</p>
+                <h2>What is Beyblade District?</h2>
+                <p>Supposed to act like a sub channel of CraftRBLX (but actually is just a playlist), Beyblade District (BD) is where I will be posting Beyblade videos.<br>So if you want to see Beyblade videos, the BD playlist is where you wanna go.</p>
+                <br>
+                <script>
+                    includeHTML();
+                </script>
+                <script type="text/javascript" src="https://craftrblx.github.io/cookieconsentpopup.js"></script>
+                <script> window.start.init({Palette:"palette2",Mode:"banner bottom",Theme:"classic",Message:"This website uses cookies to save your choices like dark mode!",LinkText:"Learn more",Location:"https://craftrblx.github.io/cookies.html",})</script><br>
+                 <link id="style" rel="stylesheet" type="text/css" href="/assets/light.css">
+                <script src="/assets/dark.js"></script>
+                <button class="light" onclick="swapStyle('light.css')" title="Light Mode Button">
+                  <i class="far fa-sun"></i>      
+                </button>
+                <button class="dark" onclick="swapStyle('dark.css')" title="Dark Mode Button">
+                  <i class="far fa-moon"></i>
+                </button>
+                <div w3-include-html="https://craftrblx.github.io/v.html"></div>
+            </div>
         </div>
     </body>
 </html>
