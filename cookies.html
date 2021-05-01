@@ -168,42 +168,49 @@
             }
         </style>
         <script>
+           window.addEventListener('load', function(){
+                var noscript = document.getElementById('invisible-noscript');
+                noscript.style="visibility: visible;"
+            })
+            
             window.addEventListener('load', function(){
-                body.classList.add('loaded')
+                body.classList.add('loaded');
             })
         </script>
     </head>
     <body id="body">
-        <div id="loader-wrapper">
-            <div id="loader"></div>
+        <div id="invisible-noscript" style="visibility: hidden;">
+            <div id="loader-wrapper">
+                <div id="loader"></div>
 
-            <div class="loader-section section-left"></div>
-            <div class="loader-section section-right"></div>
-        </div>
-        <div class="wrapper">
-            <div w3-include-html="nav.html"></div>
-            <p><a class="patha" href="https://craftrblx.github.io">craftrblx.github.io</a> > <a class="patha" href="https://craftrblx.github.io/cookies.html">cookies.html</a></p>
-            <h1>Online Cookie Use Policy</h1><br>
-            <p>We value your online privacy. Hence we don't track you or display a single ad. We just use a few browser cookies to store your choice data. Like wheter you've turned on light or dark mode. View all the cookies we use below ⬇</p><br>
-            <p>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</p><br>
-            <p>COOKIES WE USE ON THIS WEBSITE</p><br>
-            <ol style="margin-left:50px;">
-                <li>Light or Dark cookie: This cookie stores whether you've turned on the light or dark theme/mode on our website. NOTE: This worksper browser, and if you clear your cookies, it will reset to light mode</li><br>
-                <li>The Cookie acceptance cookie: This cookie stores whether you've accepted our use of cookies while you browse this website.</li>
-            </ol><br>
-            <p>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</p><br>
-            <script>
-                includeHTML();
-            </script>
-            <link id="style" rel="stylesheet" type="text/css" href="/assets/light.css">
-            <script src="/assets/dark.js"></script>
-            <button class="light" onclick="swapStyle('light.css')" title="Light Mode Button">
-              <i class="far fa-sun"></i>      
-            </button>
-            <button class="dark" onclick="swapStyle('dark.css')" title="Dark Mode Button">
-              <i class="far fa-moon"></i>
-            </button>
-            <div w3-include-html="v.html"></div>
+                <div class="loader-section section-left"></div>
+                <div class="loader-section section-right"></div>
+            </div>
+            <div class="wrapper">
+                <div w3-include-html="nav.html"></div>
+                <p><a class="patha" href="https://craftrblx.github.io">craftrblx.github.io</a> > <a class="patha" href="https://craftrblx.github.io/cookies.html">cookies.html</a></p>
+                <h1>Online Cookie Use Policy</h1><br>
+                <p>We value your online privacy. Hence we don't track you or display a single ad. We just use a few browser cookies to store your choice data. Like wheter you've turned on light or dark mode. View all the cookies we use below ⬇</p><br>
+                <p>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</p><br>
+                <p>COOKIES WE USE ON THIS WEBSITE</p><br>
+                <ol style="margin-left:50px;">
+                    <li>Light or Dark cookie: This cookie stores whether you've turned on the light or dark theme/mode on our website. NOTE: This worksper browser, and if you clear your cookies, it will reset to light mode</li><br>
+                    <li>The Cookie acceptance cookie: This cookie stores whether you've accepted our use of cookies while you browse this website.</li>
+                </ol><br>
+                <p>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</p><br>
+                <script>
+                    includeHTML();
+                </script>
+                <link id="style" rel="stylesheet" type="text/css" href="/assets/light.css">
+                <script src="/assets/dark.js"></script>
+                <button class="light" onclick="swapStyle('light.css')" title="Light Mode Button">
+                  <i class="far fa-sun"></i>      
+                </button>
+                <button class="dark" onclick="swapStyle('dark.css')" title="Dark Mode Button">
+                  <i class="far fa-moon"></i>
+                </button>
+                <div w3-include-html="v.html"></div>
+            </div>
         </div>
     </body>
 </html>
