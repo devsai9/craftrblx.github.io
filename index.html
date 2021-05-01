@@ -227,15 +227,9 @@
                 text-decoration: underline;
             }
         </style>
-        <style>
-            #invisible-noscript{
-                visibility: hidden;
-                display: block;
-            }
-        </style>
         <script>
             window.addEventListener('load', function(){
-                document.getElementById('invisible-noscript').removeAttribute(Id)    
+                document.getElementById('invisible-noscript').style.visibility = visible;
             })
             
             window.addEventListener('load', function(){
@@ -277,7 +271,7 @@
             <br>
             <h2>If you enable Javascript, your site experience will be enhanced (without Javascript there's no dark mode, easter eggs, or navigator). So please consider enabling Javascript.</h2>
         </noscript>     
-        <div id="invisible-noscript">
+        <div id="invisible-noscript" style="visibility: hidden;">
             <div id="loader-wrapper">
                 <div id="loader"></div>
                 <div class="loader-section section-left"></div>
