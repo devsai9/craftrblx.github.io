@@ -229,7 +229,8 @@
         </style>
         <script>
             window.addEventListener('load', function(){
-                document.getElementById('invisible-noscript').style.visibility = visible;
+                var noscript = document.getElementById('invisible-noscript');
+                noscript.style.visibility = visible;
             })
             
             window.addEventListener('load', function(){
