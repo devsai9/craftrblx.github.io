@@ -179,41 +179,55 @@
         </style>
         <script>
             window.addEventListener('load', function(){
-                body.classList.add('loaded')
+                var noscript = document.getElementById('invisible-noscript');
+                noscript.style="visibility: visible;"
+            })
+            
+            window.addEventListener('load', function(){
+                body.classList.add('loaded');
             })
         </script>
     </head>
     <body id="body">
-        <div id="loader-wrapper">
-            <div id="loader"></div>
-
-            <div class="loader-section section-left"></div>
-            <div class="loader-section section-right"></div>
-        </div>
-        <div class="content">
-            <div w3-include-html="nav.html"></div>
-            <p><a class="patha" href="https://craftrblx.github.io">craftrblx.github.io</a> > <a class="patha" href="https://craftrblx.github.io/announcements.html">announcements.html</a></p>
-            <h2>Announcements:</h2>
-            <button style="cursor: pointer;" class="View" type="button" onclick=" window.open('https://www.youtube.com/channel/UCEh6ZxENe-OzEu_tl3t3s-w?','_blank')">View Channel</button>
-            <h3>ANNOUNCEMENT ANNOUNCE PLACE CHANGE. Date: 1(M)/20(DD)/2021(YYYY)</h3>
-            <p>In efforts to unite the Crafter nation, announcements will now be sent on the CraftRBLX Official Fan Discord Server. So, if you want to view further announcements, I'd recommend you join the CraftRBLX Official Fan Discord server. The way to join is below. Thanks, and have a good rest of your day!<p><br>
-            <div class="discord" style="align-items:center;">
-                <iframe src="https://discord.com/widget?id=727323216367845417&theme=dark" width="400" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
-            <div>
-            <script>
-                includeHTML();
-            </script>
-            <script type="text/javascript" src="https://craftrblx.github.io/cookieconsentpopup.js"></script>
-            <script> window.start.init({Palette:"palette2",Mode:"banner bottom",Theme:"classic",Message:"This website uses cookies to save your choices like dark mode!",LinkText:"Learn more",Location:"https://craftrblx.github.io/cookies.html",})</script>
-            <link id="style" rel="stylesheet" type="text/css" href="/assets/light.css">
-            <script src="/assets/dark.js"></script><br>
-            <button class="light" onclick="swapStyle('light.css')" title="Light Mode Button">
-              <i class="far fa-sun"></i>      
-            </button>
-            <button class="dark" onclick="swapStyle('dark.css')" title="Dark Mode Button">
-              <i class="far fa-moon"></i>
-            </button>
-            <div w3-include-html="v.html"></div>
+        
+        <noscript style="z-index:9999;">
+            <h1>⚠ Please enable Javascript in your browser settings, or view the site on a javascript-supporting browser ⚠</h1>
+            <br>
+            <h2>If you enable Javascript, your site experience will be enhanced (without Javascript there's no dark mode, easter eggs, or navigator). So please consider enabling Javascript.</h2>
+        </noscript>    
+        
+        <div id="invisible-noscript" style="visibility: hidden;">
+            <div id="loader-wrapper">
+                <div id="loader"></div>
+        
+                <div class="loader-section section-left"></div>
+                <div class="loader-section section-right"></div>
+            </div>
+            <div class="content">
+                <div w3-include-html="nav.html"></div>
+                <p><a class="patha" href="https://craftrblx.github.io">craftrblx.github.io</a> > <a class="patha" href="https://craftrblx.github.io/announcements.html">announcements.html</a></p>
+                <h2>Announcements:</h2>
+                <button style="cursor: pointer;" class="View" type="button" onclick=" window.open('https://www.youtube.com/channel/UCEh6ZxENe-OzEu_tl3t3s-w?','_blank')">View Channel</button>
+                <h3>ANNOUNCEMENT ANNOUNCE PLACE CHANGE. Date: 1(M)/20(DD)/2021(YYYY)</h3>
+                <p>In efforts to unite the Crafter nation, announcements will now be sent on the CraftRBLX Official Fan Discord Server. So, if you want to view further announcements, I'd recommend you join the CraftRBLX Official Fan Discord server. The way to join is below. Thanks, and have a good rest of your day!<p><br>
+                <div class="discord" style="align-items:center;">
+                    <iframe src="https://discord.com/widget?id=727323216367845417&theme=dark" width="400" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+                <div>
+                <script>
+                    includeHTML();
+                </script>
+                <script type="text/javascript" src="https://craftrblx.github.io/cookieconsentpopup.js"></script>
+                <script> window.start.init({Palette:"palette2",Mode:"banner bottom",Theme:"classic",Message:"This website uses cookies to save your choices like dark mode!",LinkText:"Learn more",Location:"https://craftrblx.github.io/cookies.html",})</script>
+                <link id="style" rel="stylesheet" type="text/css" href="/assets/light.css">
+                <script src="/assets/dark.js"></script><br>
+                <button class="light" onclick="swapStyle('light.css')" title="Light Mode Button">
+                  <i class="far fa-sun"></i>      
+                </button>
+                <button class="dark" onclick="swapStyle('dark.css')" title="Dark Mode Button">
+                  <i class="far fa-moon"></i>
+                </button>
+                <div w3-include-html="v.html"></div>
+            </div>
         </div>
     </body>
 </html>
