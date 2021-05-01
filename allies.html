@@ -179,83 +179,97 @@
         </style>
         <script>
             window.addEventListener('load', function(){
-                body.classList.add('loaded')
+                var noscript = document.getElementById('invisible-noscript');
+                noscript.style="visibility: visible;"
+            })
+            
+            window.addEventListener('load', function(){
+                body.classList.add('loaded');
             })
         </script>
     </head>
     <body id="body">
-        <div id="loader-wrapper">
-            <div id="loader"></div>
+        
+        <noscript style="z-index:9999;">
+            <h1>⚠ Please enable Javascript in your browser settings, or view the site on a javascript-supporting browser ⚠</h1>
+            <br>
+            <h2>If you enable Javascript, your site experience will be enhanced (without Javascript there's no dark mode, easter eggs, or navigator). So please consider enabling Javascript.</h2>
+        </noscript>    
+        
+        <div id="invisible-noscript" style="visibility: hidden;">
+            <div id="loader-wrapper">
+                <div id="loader"></div>
 
-            <div class="loader-section section-left"></div>
-            <div class="loader-section section-right"></div>
-        </div>
-        <div class="content" id="content">
-          <div w3-include-html="nav.html"></div>
-          <p><a class="patha" href="https://craftrblx.github.io">craftrblx.github.io</a> > <a class="patha" href="https://craftrblx.github.io/allies.html">allies.html</a></p>
-          <h2 style="font-family: 'Quicksand', sans-serif;">Allies/Affiliates</h2>
-          <p>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~<p>
-          <h3>Aryan AKA XalitaniaRebooted or Xalitania</h3>
-          <br>
-          <p>YouTube Channel:</p>
-          <button style="cursor: pointer; font-family: 'Quicksand', sans-serif;" class="View" type="button" onclick=" window.open('https://www.youtube.com/channel/UC3f88yL7uy5Fokj83Tt0f8A','_blank')">View XalitaniaRebooted</button>
-          <p>⚠ Xalitania was deleted ⚠</p>
-          <br>
-          <p>Discord Fan server:</p>
-          <button style="cursor: pointer; font-family: 'Quicksand', sans-serif;" class="View" type="button" onclick=" window.open('https://discord.gg/wVGeCM35gH','_blank')">Join XDS</button>
-          <p></p>
-          <br>
-          <p>Roblox Fan Group (shared with The Order of The Gamers [OOTG]):</p>
-          <button style="cursor: pointer; font-family: 'Quicksand', sans-serif;" class="View" type="button" onclick=" window.open('https://www.roblox.com/groups/4921812/The-Order-Of-The-Gamers#!/about','_blank')">Join XR's Roblox Fan server + OOTG</button>
-          <p></p>
-          <br>
-          <p>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~<p>
-          <br>
-          <h3>Rana AKA YYTPlayz or YY2 Playz</h3>
-          <br>
-          <p>YouTube Channel:</p>
-          <button style="cursor: pointer; font-family: 'Quicksand', sans-serif;" class="View" type="button" onclick=" window.open('https://www.youtube.com/channel/UCPdsZfwPfqU6HbnY83UbPSg','_blank')">View YYTPlayz</button>
-          <button style="cursor: pointer; font-family: 'Quicksand', sans-serif;" class="View" type="button" onclick=" window.open('https://www.youtube.com/channel/UCLYLvjUNb58_iOpvsf-Ddvw','_blank')">View YY2 Playz</button>
-          <p></p>
-          <br>
-          <p>Discord Fan Server:</p>
-          <button style="cursor: pointer; font-family: 'Quicksand', sans-serif;" class="View" type="button" onclick=" window.open('https://discord.gg/GaSGFPMFrK','_blank')">Join YYTPlayz Official Discord Server</button>
-          <p></p>
-          <br>
-          <p>Roblox Fan Group</p>
-          <button style="cursor: pointer; font-family: 'Quicksand', sans-serif;" class="View" type="button" onclick=" window.open('https://www.roblox.com/groups/10295161/YYT-Playz-Official#!/about','_blank')">Join YYTPlayz Official</button>
-          <p></p>
-          <br>
-          <p>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~<p>
-          <br>
-          <h3>Sathvik AKA Rainbow Region</h3>
-          <br>
-          <p>YouTube Channel:</p>
-          <button style="cursor: pointer; font-family: 'Quicksand', sans-serif;" class="View" type="button" onclick=" window.open('https://www.youtube.com/channel/UC-S-HbN4Kz4W_H39SxKlLvg','_blank')">View Rainbow Region</button>
-          <p></p>
-          <br>
-          <p>Discord Fan Server:</p>
-          <button style="cursor: pointer; font-family: 'Quicksand', sans-serif;" class="View" type="button" onclick=" window.open('https://discord.gg/WuXvXCnvC9','_blank')">Join Rainbow Region Fan Discord Server</button>
-          <p></p>
-          <br>
-          <p>Roblox Fan Group</p>
-          <p>⚠ Rainbow Region did not create a Roblox Fan Group ⚠</p>
-          <br>
-   
-          <script>
-              includeHTML();
-          </script>
-          <script type="text/javascript" src="https://craftrblx.github.io/cookieconsentpopup.js"></script>
-          <script> window.start.init({Palette:"palette2",Mode:"banner bottom",Theme:"classic",Message:"This website uses cookies to save your choices like dark mode!",LinkText:"Learn more",Location:"https://craftrblx.github.io/cookies.html",})</script>
-          <link id="style" rel="stylesheet" type="text/css" href="/assets/light.css">
-          <script src="/assets/dark.js"></script>
-          <button class="light" onclick="swapStyle('light.css')" title="Light Mode Button">
-            <i class="far fa-sun"></i>      
-          </button>
-          <button class="dark" onclick="swapStyle('dark.css')" title="Dark Mode Button">
-            <i class="far fa-moon"></i>
-          </button>
-          <div w3-include-html="v.html"></div>
+                <div class="loader-section section-left"></div>
+                <div class="loader-section section-right"></div>
+            </div>
+            <div class="content" id="content">
+              <div w3-include-html="nav.html"></div>
+              <p><a class="patha" href="https://craftrblx.github.io">craftrblx.github.io</a> > <a class="patha" href="https://craftrblx.github.io/allies.html">allies.html</a></p>
+              <h2 style="font-family: 'Quicksand', sans-serif;">Allies/Affiliates</h2>
+              <p>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~<p>
+              <h3>Aryan AKA XalitaniaRebooted or Xalitania</h3>
+              <br>
+              <p>YouTube Channel:</p>
+              <button style="cursor: pointer; font-family: 'Quicksand', sans-serif;" class="View" type="button" onclick=" window.open('https://www.youtube.com/channel/UC3f88yL7uy5Fokj83Tt0f8A','_blank')">View XalitaniaRebooted</button>
+              <p>⚠ Xalitania was deleted ⚠</p>
+              <br>
+              <p>Discord Fan server:</p>
+              <button style="cursor: pointer; font-family: 'Quicksand', sans-serif;" class="View" type="button" onclick=" window.open('https://discord.gg/wVGeCM35gH','_blank')">Join XDS</button>
+              <p></p>
+              <br>
+              <p>Roblox Fan Group (shared with The Order of The Gamers [OOTG]):</p>
+              <button style="cursor: pointer; font-family: 'Quicksand', sans-serif;" class="View" type="button" onclick=" window.open('https://www.roblox.com/groups/4921812/The-Order-Of-The-Gamers#!/about','_blank')">Join XR's Roblox Fan server + OOTG</button>
+              <p></p>
+              <br>
+              <p>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~<p>
+              <br>
+              <h3>Rana AKA YYTPlayz or YY2 Playz</h3>
+              <br>
+              <p>YouTube Channel:</p>
+              <button style="cursor: pointer; font-family: 'Quicksand', sans-serif;" class="View" type="button" onclick=" window.open('https://www.youtube.com/channel/UCPdsZfwPfqU6HbnY83UbPSg','_blank')">View YYTPlayz</button>
+              <button style="cursor: pointer; font-family: 'Quicksand', sans-serif;" class="View" type="button" onclick=" window.open('https://www.youtube.com/channel/UCLYLvjUNb58_iOpvsf-Ddvw','_blank')">View YY2 Playz</button>
+              <p></p>
+              <br>
+              <p>Discord Fan Server:</p>
+              <button style="cursor: pointer; font-family: 'Quicksand', sans-serif;" class="View" type="button" onclick=" window.open('https://discord.gg/GaSGFPMFrK','_blank')">Join YYTPlayz Official Discord Server</button>
+              <p></p>
+              <br>
+              <p>Roblox Fan Group</p>
+              <button style="cursor: pointer; font-family: 'Quicksand', sans-serif;" class="View" type="button" onclick=" window.open('https://www.roblox.com/groups/10295161/YYT-Playz-Official#!/about','_blank')">Join YYTPlayz Official</button>
+              <p></p>
+              <br>
+              <p>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~<p>
+              <br>
+              <h3>Sathvik AKA Rainbow Region</h3>
+              <br>
+              <p>YouTube Channel:</p>
+              <button style="cursor: pointer; font-family: 'Quicksand', sans-serif;" class="View" type="button" onclick=" window.open('https://www.youtube.com/channel/UC-S-HbN4Kz4W_H39SxKlLvg','_blank')">View Rainbow Region</button>
+              <p></p>
+              <br>
+              <p>Discord Fan Server:</p>
+              <button style="cursor: pointer; font-family: 'Quicksand', sans-serif;" class="View" type="button" onclick=" window.open('https://discord.gg/WuXvXCnvC9','_blank')">Join Rainbow Region Fan Discord Server</button>
+              <p></p>
+              <br>
+              <p>Roblox Fan Group</p>
+              <p>⚠ Rainbow Region did not create a Roblox Fan Group ⚠</p>
+              <br>
+
+              <script>
+                  includeHTML();
+              </script>
+              <script type="text/javascript" src="https://craftrblx.github.io/cookieconsentpopup.js"></script>
+              <script> window.start.init({Palette:"palette2",Mode:"banner bottom",Theme:"classic",Message:"This website uses cookies to save your choices like dark mode!",LinkText:"Learn more",Location:"https://craftrblx.github.io/cookies.html",})</script>
+              <link id="style" rel="stylesheet" type="text/css" href="/assets/light.css">
+              <script src="/assets/dark.js"></script>
+              <button class="light" onclick="swapStyle('light.css')" title="Light Mode Button">
+                <i class="far fa-sun"></i>      
+              </button>
+              <button class="dark" onclick="swapStyle('dark.css')" title="Dark Mode Button">
+                <i class="far fa-moon"></i>
+              </button>
+              <div w3-include-html="v.html"></div>
+            </div>
         </div>
     </body>      
 </html>
