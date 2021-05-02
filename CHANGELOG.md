@@ -1,6 +1,13 @@
 # Change log
 ## Main = Default English, FE = Funny English, ES = Spanish
 
+## MAIN v7.6 - May 1, 2021
+**Changes**
+- Made it so that if you load te website witout Javascript, you'll get a warning message. Instead of the page loader spinning forever.
+- Changed the favicon of all pages to the [new CraftRBLX logo](https://craftrblx.github.io/assets/logos/crlogo2021S1.png).
+
+---
+
 ## MAIN v7.5 - Apr 29, 2021
 **Added**
 - Made it so that when you hover over a link in the blog section of the [homepage](https://craftrblx.github.io/), the underline appears. Otherwise it's hidden.
