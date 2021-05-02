@@ -2,6 +2,9 @@
 ## Main = Default English, FE = Funny English, ES = Spanish
 
 ## MAIN v7.6 - May 1, 2021
+**Added**
+- Added a home svg next to the homepage text in the pages part of the nav.
+
 **Changes**
 - Made it so that if you load te website witout Javascript, you'll get a warning message. Instead of the page loader spinning forever.
 - Changed the favicon of all pages to the [new CraftRBLX logo](https://craftrblx.github.io/assets/logos/crlogo2021S1.png).
