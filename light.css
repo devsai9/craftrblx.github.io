@@ -122,3 +122,14 @@ body {
     color:black;
     text-align: center;
 }
+
+/* 404 page */
+.errorlinks a{
+    color: black;
+    text-decaoration: none;
+}
+
+.errorlinks a:hover{
+    color: royalblue;
+    text-decoration: underline;
+}
