@@ -124,12 +124,9 @@ body {
 }
 
 /* 404 page */
-.errorlinks{
-    color: black;
-}
-
 .errorlinks a{
-    text-decaoration: none;
+    color: black;
+    text-decoration: none;
 }
 
 .errorlinks a:hover{
