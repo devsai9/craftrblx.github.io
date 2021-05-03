@@ -132,16 +132,13 @@ body {
 
 .light{
     background-color: black;
-    color:white;
-}
-
-/* 404 page */
-.errorlinks{
     color: white;
 }
 
+/* 404 page */
 .errorlinks a{
-    text-decaoration: none;
+    color: white;
+    text-decoration: none;
 }
 
 .errorlinks a:hover{
