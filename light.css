@@ -133,3 +133,8 @@ body {
     color: royalblue;
     text-decoration: underline;
 }
+
+/* Website Version */
+#webversion{
+    color: black;
+}
