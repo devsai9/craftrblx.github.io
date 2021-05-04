@@ -14,69 +14,48 @@
 
               gtag('config', 'G-DQRKZ99KXH');
             </script>
-            <script>
-              function includeHTML() {
-                var z, i, elmnt, file, xhttp;
-                /*loop through a collection of all HTML elements:*/
-                z = document.getElementsByTagName("*");
-                for (i = 0; i < z.length; i++) {
-                  elmnt = z[i];
-                  /*search for elements with a certain atrribute:*/
-                  file = elmnt.getAttribute("w3-include-html");
-                  if (file) {
-                    /*make an HTTP request using the attribute value as the file name:*/
-                    xhttp = new XMLHttpRequest();
-                    xhttp.onreadystatechange = function() {
-                      if (this.readyState == 4) {
-                        if (this.status == 200) {elmnt.innerHTML = this.responseText;}
-                        if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
-                        /*remove the attribute, and call this function once more:*/
-                        elmnt.removeAttribute("w3-include-html");
-                        includeHTML();
-                      }
-                    }      
-                    xhttp.open("GET", file, true);
-                    xhttp.send();
-                    /*exit the function:*/
-                    return;
-                  }
-                }
-              };
-          </script>
     <base href="https://craftrblx.github.io/">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300&family=DotGothic16&family=Major+Mono+Display&display=swap" rel="stylesheet">
+    <style>
+      @import 'https://fonts.googleapis.com/css?family=VT323';
+      
+      body{
+        background-color: #0414a7;
+      }
+      
+      *{
+        font-family: 'VT323', monospace;
+      }
+      
+      .errornamebg{
+        background: #aaaaaa;
+        padding: 0 15px 2px 13px;
+      }
+      
+      .errorlinks a{
+        color: white;
+        text-decoration: none;
+      }
+      
+      errorlinks a:hover{
+        background-color: #aaaaaa;
+        color: #0414a7;
+      }
+    </style>
   </head>
   <body>
     <div class="wrapper">
-      <div w3-include-html="https://craftrblx.github.io/nav.html"></div>
       <br><noscript style="z-index:9999;"><p>⚠ Please enable Javascript otherwise this whole site won't function properly ⚠</p></noscript><br>
-      <div style="height: 249px; position: relative;">
-          <div style="background-image: url(/assets/404/404img.png); background-repeat: no-repeat; width: 300px; height: 249px; background-size: 300px; margin: 0; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);"></div>
-      </div>
       <div style="text-align: center;">
-        <h1 style="text-align: center; font-family: 'DM Mono', monospace; display: inline-block;">Error</h1>&nbsp
-        <h1 style="font-family: 'Major Mono Display', monospace; display: inline-block;">404</h1><br>
-        <h1 style="font-family: 'DotGothic16', sans-serif;">| Page not Found |</h1><br>
+        <h1 style="color: #0414a7;"><span class="errornamebg">Error 404</span></h1><br>
       </div>
-      <h2 style="text-align: center;">We're sorry, but the URL you've entered is invalid.</h2>
+      <h2>URL_NOT_VALID</p></h2><br>
+      <p style="text-align: center;">The website has run into a fatal error. To continue:</p>
       <br>
-      <h3 style="text-align: center;font-size: 19px;">In the meanwhile... here are some useful links ;)</h3>
+      <p style="text-align: center;">* Go to one of our links</p>
       <br>
       <div class="errorlinks" style="text-align: center; font-size: 18px;">
-        <p style="display: inline-block; color: #808080;">»</p>&nbsp<p style="display: inline-block;"><a href="https://craftrblx.github.io">Homepage</a></p><br>
-        <p style="display: inline-block; color: #808080;">»</p>&nbsp<p style="display: inline-block;"><a href="https://www.youtube.com/channel/UCEh6ZxENe-OzEu_tl3t3s-w">CraftRBLX YouTube Channel</a></p><br>
-        <p style="display: inline-block; color: #808080;">»</p>&nbsp<p style="display: inline-block;"><a href="https://discord.gg/BHhV8fH">CraftRBLX Discord Cafè</a></p><br>
-        <p style="display: inline-block; color: #808080;">»</p>&nbsp<p style="display: inline-block;"><a href="https://www.roblox.com/groups/10295625/CraftRBLX-Official-Fan-Roblox-Group#!/about">CraftRBLX Official Fan Roblox Group</a></p>
+        <a href="https://craftrblx.github.io/">Home</a>&nbsp&nbsp | &nbsp&nbsp<a href="https://www.youtube.com/channel/UCEh6ZxENe-OzEu_tl3t3s-w?">CraftRBLX YouTube Channel</a>&nbsp&nbsp | &nbsp&nbsp<a href="https://discord.gg/BHhV8fH">CraftRBLX Discord Cafè</a>&nbsp&nbsp | &nbsp&nbsp<a href="https://www.roblox.com/groups/10295625/CraftRBLX-Official-Fan-Roblox-Group#!/about">CraftRBLX Roblox Group</a>
       </div>
-      <script>
-          includeHTML();
-      </script>
-      <script type="text/javascript" src="https://craftrblx.github.io/cookieconsentpopup.js"></script>
-      <script> window.start.init({Palette:"palette2",Mode:"banner bottom",Theme:"classic",Message:"This website uses cookies to save your choices like dark mode!",LinkText:"Learn more",Location:"https://craftrblx.github.io/cookies.html",})</script>
-      <link id="style" rel="stylesheet" type="text/css" href="/assets/light.css">
-      <script src="/assets/dark.js"></script>
      </div>
    </body>
 </html>
