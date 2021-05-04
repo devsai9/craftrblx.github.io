@@ -1,6 +1,13 @@
 # Change log
 ## Main = Default English, FE = Funny English, ES = Spanish
 
+## MAIN v7.7 - May 3, 2021
+**Changes**
+- 100% remade the [Error 404 page](https:/craftrblx.github.io/404.html), to be more user-friendly
+- Changed the old CraftRBLX logo on the nav to the new one
+
+---
+
 ## MAIN v7.6 - May 1, 2021
 **Added**
 - Added a home svg next to the homepage text in the pages part of the nav.
