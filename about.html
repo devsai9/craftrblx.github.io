@@ -182,66 +182,52 @@
         </style>
         <script>
             window.addEventListener('load', function(){
-                var noscript = document.getElementById('invisible-noscript');
-                noscript.style="visibility: visible;"
-            })
-            
-            window.addEventListener('load', function(){
                 body.classList.add('loaded');
             })
         </script>
     </head>
     <body id="body">
-        
-        <noscript style="z-index:9999;">
-            <h1>⚠ Please enable Javascript in your browser settings, or view the site on a javascript-supporting browser ⚠</h1>
-            <br>
-            <h2>If you enable Javascript, your site experience will be enhanced (without Javascript there's no dark mode, easter eggs, or navigator). So please consider enabling Javascript.</h2>
-        </noscript>
-        
-        <div id="invisible-noscript" style="visibility: hidden;">
-            <div id="loader-wrapper">
-                <div id="loader"></div>
+        <div id="loader-wrapper">
+            <div id="loader"></div>
 
-                <div class="loader-section section-left"></div>
-                <div class="loader-section section-right"></div>
+            <div class="loader-section section-left"></div>
+            <div class="loader-section section-right"></div>
+        </div>
+        <div class="content">
+            <div w3-include-html="nav.html"></div>
+            <p><a class="patha" href="https://craftrblx.github.io">craftrblx.github.io</a> > <a class="patha" href="https://craftrblx.github.io/about.html">about.html</a></p>
+            <h2>About / Q & A</h2>
+            <button style="cursor: pointer;" class="View" type="button" onclick=" window.open('https://www.youtube.com/channel/UCEh6ZxENe-OzEu_tl3t3s-w?','_blank')">View Channel</button>
+            <h1>About</h1>
+            <p>On the CraftRBLX channel I upload mainly Roblox content, but occasionally I upload Minecraft videos. I have an <strong><u>awesome, motivating, and positive audience.</u></strong></p>
+            <p>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~<p>
+            <div class="Q&A">
+                <h1>Q&A</h1>
+                <h2>What is CraftRBLX?</h2>
+                <p>CraftRBLX is a gaming channel mainly focused on playing Roblox, but also plays some Minecraft.</p><br>
+                <h2>How often do you post/upload?</h2>
+                <p>I usually post at max biweekly.</p><br>
+                <h2>How good is your audience?</h2>
+                <pre><strong><u>THE BEST EVER; THEY GIVE POSITIVE FEEDBACK ON VIDEOS AND A LOT MORE!!</u></strong></pre><br>
+                <p>If you have any more questions or feedback on this page please comment them on my latest video. There is a button at the top of the page to my channel. Thank you!</p>
             </div>
-            <div class="content">
-                <div w3-include-html="nav.html"></div>
-                <p><a class="patha" href="https://craftrblx.github.io">craftrblx.github.io</a> > <a class="patha" href="https://craftrblx.github.io/about.html">about.html</a></p>
-                <h2>About / Q & A</h2>
-                <button style="cursor: pointer;" class="View" type="button" onclick=" window.open('https://www.youtube.com/channel/UCEh6ZxENe-OzEu_tl3t3s-w?','_blank')">View Channel</button>
-                <h1>About</h1>
-                <p>On the CraftRBLX channel I upload mainly Roblox content, but occasionally I upload Minecraft videos. I have an <strong><u>awesome, motivating, and positive audience.</u></strong></p>
-                <p>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~<p>
-                <div class="Q&A">
-                    <h1>Q&A</h1>
-                    <h2>What is CraftRBLX?</h2>
-                    <p>CraftRBLX is a gaming channel mainly focused on playing Roblox, but also plays some Minecraft.</p><br>
-                    <h2>How often do you post/upload?</h2>
-                    <p>I usually post at max biweekly.</p><br>
-                    <h2>How good is your audience?</h2>
-                    <pre><strong><u>THE BEST EVER; THEY GIVE POSITIVE FEEDBACK ON VIDEOS AND A LOT MORE!!</u></strong></pre><br>
-                    <p>If you have any more questions or feedback on this page please comment them on my latest video. There is a button at the top of the page to my channel. Thank you!</p>
-                </div>
-                <p>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~<p>
-                <p>So if you want to support this small channel and make it a big, well-known channel please consider subscribing. Thanks!</p>
-                <button style="color: red; cursor: pointer;" type="button" onclick=" window.open('https://www.youtube.com/channel/UCEh6ZxENe-OzEu_tl3t3s-w?sub_confirmation=1','_blank')">SUBSCRIBE</button>
-                <script>
-                    includeHTML();
-                </script>
-                <script type="text/javascript" src="https://craftrblx.github.io/cookieconsentpopup.js"></script>
-                <script> window.start.init({Palette:"palette2",Mode:"banner bottom",Theme:"classic",Message:"This website uses cookies to save your choices like dark mode!",LinkText:"Learn more",Location:"https://craftrblx.github.io/cookies.html",})</script><br>
-                 <link id="style" rel="stylesheet" type="text/css" href="/assets/light.css">
-                <script src="/assets/dark.js"></script>
-                <button class="light" onclick="swapStyle('light.css')" title="Light Mode Button">
-                  <i class="far fa-sun"></i>      
-                </button>
-                <button class="dark" onclick="swapStyle('dark.css')" title="Dark Mode Button">
-                  <i class="far fa-moon"></i>
-                </button>
-                <div w3-include-html="v.html"></div>
-            </div>
+            <p>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~<p>
+            <p>So if you want to support this small channel and make it a big, well-known channel please consider subscribing. Thanks!</p>
+            <button style="color: red; cursor: pointer;" type="button" onclick=" window.open('https://www.youtube.com/channel/UCEh6ZxENe-OzEu_tl3t3s-w?sub_confirmation=1','_blank')">SUBSCRIBE</button>
+            <script>
+                includeHTML();
+            </script>
+            <script type="text/javascript" src="https://craftrblx.github.io/cookieconsentpopup.js"></script>
+            <script> window.start.init({Palette:"palette2",Mode:"banner bottom",Theme:"classic",Message:"This website uses cookies to save your choices like dark mode!",LinkText:"Learn more",Location:"https://craftrblx.github.io/cookies.html",})</script><br>
+             <link id="style" rel="stylesheet" type="text/css" href="/assets/light.css">
+            <script src="/assets/dark.js"></script>
+            <button class="light" onclick="swapStyle('light.css')" title="Light Mode Button">
+              <i class="far fa-sun"></i>      
+            </button>
+            <button class="dark" onclick="swapStyle('dark.css')" title="Dark Mode Button">
+              <i class="far fa-moon"></i>
+            </button>
+            <div w3-include-html="v.html"></div>
         </div>
     </body>
 </html>
