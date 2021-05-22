@@ -232,11 +232,6 @@
                 body.classList.add('loaded');
             })
             
-            window.addEventListener('load', function(){
-                var noscript = document.getElementById('invisible-noscript');
-                noscript.style="visibility: visible;"
-            })
-            
             function markasread(){
                 x = document.getElementById('blogbtn');
                 
@@ -267,78 +262,69 @@
         </script>
     </head>
     <body id="body">
-        
-        <noscript style="z-index:9999;">
-            <h1>⚠ Please enable Javascript in your browser settings, or view the site on a javascript-supporting browser ⚠</h1>
+        <div id="loader-wrapper">
+            <div id="loader"></div>
+            <div class="loader-section section-left"></div>
+            <div class="loader-section section-right"></div>
+        </div>
+        <div class="content" id="content">
+            <div w3-include-html="nav.html"></div>
+            <p><a class="patha" href="https://craftrblx.github.io">craftrblx.github.io</a> > <a class="patha" href="https://craftrblx.github.io/index.html">index.html</a></p>
+            <h2 style="font-family: 'Quicksand', sans-serif;">Homepage</h2>
+            <button style="cursor: pointer; font-family: 'Quicksand', sans-serif;" class="View" type="button" onclick=" window.open('https://www.youtube.com/channel/UCEh6ZxENe-OzEu_tl3t3s-w?','_blank')">View channel</button>
+            <p style="font-family: 'Quicksand', sans-serif;">Check out the other pages! Navigator to the right of the CraftRBLX logo.</p>
+            <p>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~<p>
+            <p>CHANNEL TRAILER V1</p>
+            <a href="https://www.youtube.com/watch?v=HC73-tFPPkg" target="_blank"><img src="/assets/videos_page/channeltrailerv1.jpg" style="width:565px; height:315px;"></a>           
+            <p>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~<p>
+            <p style="font-family: 'Quicksand', sans-serif;">So if you want to support this small channel and make it a big, well-known channel please consider subscribing. Thanks!</p>
+            <button style="color: red; cursor: pointer; font-family: 'Quicksand', sans-serif;" type="button" onclick=" window.open('https://www.youtube.com/channel/UCEh6ZxENe-OzEu_tl3t3s-w?sub_confirmation=1','_blank')">SUBSCRIBE</button><br>
+            <script type="text/javascript" src="https://craftrblx.github.io/cookieconsentpopup.js"></script>
+            <script> window.start.init({Palette:"palette2",Mode:"banner bottom",Theme:"classic",Message:"This website uses cookies to save your choices like dark mode!",LinkText:"Learn more",Location:"https://craftrblx.github.io/cookies.html",})</script>
+            <link id="style" rel="stylesheet" type="text/css" href="/assets/light.css">
+            <script src="/assets/dark.js"></script>
+            <button class="light" onclick="swapStyle('light.css')" title="Light Mode Button">
+              <i class="far fa-sun"></i>      
+            </button>
+            <button class="dark" onclick="swapStyle('dark.css')" title="Dark Mode Button">
+              <i class="far fa-moon"></i>
+            </button>
             <br>
-            <h2>If you enable Javascript, your site experience will be enhanced (without Javascript there's no dark mode, easter eggs, or navigator). So please consider enabling Javascript.</h2>
-        </noscript>    
-        
-        <div id="invisible-noscript" style="visibility: hidden;">
-            <div id="loader-wrapper">
-                <div id="loader"></div>
-                <div class="loader-section section-left"></div>
-                <div class="loader-section section-right"></div>
+            <div w3-include-html="v.html" style="display: inline-block; margin-right: 5px;"></div><button onclick=" window.open('https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ?autoplay=1','_blank')" style="border:none; background-color: transparent; cursor: pointer; font-size: 5px;" title="CLICK ME">🍪</button>
+            <br>
+            <br>
+            <span class="betabadge" style="margin-top: -5px;"><button style="background-color: transparent; border: none; cursor: pointer; color: #38b03c;" id="betabtn" onclick="betatoalpha()" title="CLICK ME">Beta</button></span><h2 style="display: inline-block; margin-right: 10px; margin-left: 10px;">Blogs:</h2><span class="badge" style="margin-top: -5px;"><button style="background-color: transparent; color: white; border: none; cursor: pointer;" id="blogbtn" onclick="markasread()" title="CLICK ME">7</button></span><br>
+            <div class="blog-ctn" style="width:250px;float:left;padding:0px 10px 0px 10px;">
+                <a href="https://www.youtube.com/watch?v=GIFVnB8T374&t=100s" target="_blank" style="color: rgb(41,101,213);" class="bloga"><h2>100 Subscriber, 100 Robux Giveaway</h2></a><blogdate>May 11, 2021</blogdate><br>
+                <blogp><a href="https://bit.ly/38LFrAB" style="color: rgb(41,101,213);" target="_blank" class="bloga">CraftRBLX</a> has hit 100 subs! So in return I'm hosting a 100 subscriber giveaway. Where the winner will get 100 robux!!! If you want to join read the full blog.<br><a href="https://craftrblx.github.io/blogs/2021/05/11/100-subscriber-100-robux-giveaway.html" style="color: rgb(41,101,213);" class="bloga">[Read Full Blog...]</a></blogp><p></p><br class="blogbr">
             </div>
-            <div class="content" id="content">
-                <div w3-include-html="nav.html"></div>
-                <p><a class="patha" href="https://craftrblx.github.io">craftrblx.github.io</a> > <a class="patha" href="https://craftrblx.github.io/index.html">index.html</a></p>
-                <h2 style="font-family: 'Quicksand', sans-serif;">Homepage</h2>
-                <button style="cursor: pointer; font-family: 'Quicksand', sans-serif;" class="View" type="button" onclick=" window.open('https://www.youtube.com/channel/UCEh6ZxENe-OzEu_tl3t3s-w?','_blank')">View channel</button>
-                <p style="font-family: 'Quicksand', sans-serif;">Check out the other pages! Navigator to the right of the CraftRBLX logo.</p>
-                <p>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~<p>
-                <p>CHANNEL TRAILER V1</p>
-                <a href="https://www.youtube.com/watch?v=HC73-tFPPkg" target="_blank"><img src="/assets/videos_page/channeltrailerv1.jpg" style="width:565px; height:315px;"></a>           
-                <p>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~<p>
-                <p style="font-family: 'Quicksand', sans-serif;">So if you want to support this small channel and make it a big, well-known channel please consider subscribing. Thanks!</p>
-                <button style="color: red; cursor: pointer; font-family: 'Quicksand', sans-serif;" type="button" onclick=" window.open('https://www.youtube.com/channel/UCEh6ZxENe-OzEu_tl3t3s-w?sub_confirmation=1','_blank')">SUBSCRIBE</button><br>
-                <script>
-                    includeHTML();
-                </script>
-                <script type="text/javascript" src="https://craftrblx.github.io/cookieconsentpopup.js"></script>
-                <script> window.start.init({Palette:"palette2",Mode:"banner bottom",Theme:"classic",Message:"This website uses cookies to save your choices like dark mode!",LinkText:"Learn more",Location:"https://craftrblx.github.io/cookies.html",})</script>
-                <link id="style" rel="stylesheet" type="text/css" href="/assets/light.css">
-                <script src="/assets/dark.js"></script>
-                <button class="light" onclick="swapStyle('light.css')" title="Light Mode Button">
-                  <i class="far fa-sun"></i>      
-                </button>
-                <button class="dark" onclick="swapStyle('dark.css')" title="Dark Mode Button">
-                  <i class="far fa-moon"></i>
-                </button>
-                <br>
-                <div w3-include-html="v.html" style="display: inline-block; margin-right: 5px;"></div><button onclick=" window.open('https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ?autoplay=1','_blank')" style="border:none; background-color: transparent; cursor: pointer; font-size: 5px;" title="CLICK ME">🍪</button>
-                <br>
-                <br>
-                <span class="betabadge" style="margin-top: -5px;"><button style="background-color: transparent; border: none; cursor: pointer; color: #38b03c;" id="betabtn" onclick="betatoalpha()" title="CLICK ME">Beta</button></span><h2 style="display: inline-block; margin-right: 10px; margin-left: 10px;">Blogs:</h2><span class="badge" style="margin-top: -5px;"><button style="background-color: transparent; color: white; border: none; cursor: pointer;" id="blogbtn" onclick="markasread()" title="CLICK ME">7</button></span><br>
-                <div class="blog-ctn" style="width:250px;float:left;padding:0px 10px 0px 10px;">
-                    <a href="https://www.youtube.com/watch?v=GIFVnB8T374&t=100s" target="_blank" style="color: rgb(41,101,213);" class="bloga"><h2>100 Subscriber, 100 Robux Giveaway</h2></a><blogdate>May 11, 2021</blogdate><br>
-                    <blogp><a href="https://bit.ly/38LFrAB" style="color: rgb(41,101,213);" target="_blank" class="bloga">CraftRBLX</a> has hit 100 subs! So in return I'm hosting a 100 subscriber giveaway. Where the winner will get 100 robux!!! If you want to join read the full blog.<br><a href="https://craftrblx.github.io/blogs/2021/05/11/100-subscriber-100-robux-giveaway.html" style="color: rgb(41,101,213);" class="bloga">[Read Full Blog...]</a></blogp><p></p><br class="blogbr">
-                </div>
-                <div class="blog-ctn" style="width:250px;float:left;padding:0px 10px 0px 10px;">
-                    <a href="https://www.youtube.com/watch?v=GIFVnB8T374" target="_blank" style="color: rgb(41,101,213);" class="bloga"><h2>CraftRBLX has hit 100 subs!!!!! YAYYYYYYYYYYY</h2></a><blogdate>May 07, 2021</blogdate><br>
-                    <blogp><a href="https://bit.ly/38LFrAB" style="color: rgb(41,101,213);" target="_blank" class="bloga">CraftRBLX</a> has hit 100 subs! I would love to give a giant THANK YOUUU for this commendable and commemorable moment. We have done it! 100 subscribers!!! We are trying to get to 200 subs by Jan 1st 2022! So if you haven't yet please subscribe so we get there: <a href="https://bit.ly/38LFrAB" style="color: rgb(41,101,213);" target="_blank" class="bloga">https://bit.ly/38LFrAB</a><br><a href="https://craftrblx.github.io/blogs/2021/05/07/CraftRBLX-has-hit-100-subs-YAYYYYYYYYYYY.html" style="color: rgb(41,101,213);" class="bloga">[Read Full Blog...]</a></blogp><p></p><br class="blogbr">
-                </div>
-                <div class="blog-ctn" style="width:250px;float:left;padding:0px 10px 0px 10px;">
-                    <h2>CraftRBLX has hit 90 subs! YAHOOO</h2><blogdate>April 28, 2021</blogdate><br>
-                    <blogp><a href="https://bit.ly/38LFrAB" style="color: rgb(41,101,213);" target="_blank" class="bloga">CraftRBLX</a> has hit 90 subs! I would like to give a TY (thank you) for this moment. We are so very close to that 100 subscribers mark. We are trying to get there for a custom channel URL, so if you haven't yet please subscribe to help the goal: <a href="https://bit.ly/38LFrAB" style="color: rgb(41,101,213);" target="_blank" class="bloga">https://bit.ly/38LFrAB</a><br><a href="https://craftrblx.github.io/blogs/2021/04/28/CraftRBLX-has-hit-90-subs-YAHOOO.html" style="color: rgb(41,101,213);" class="bloga">[Read Full Blog...]</a></blogp><p></p><br class="blogbr">
-                </div>
-                <div class="blog-ctn" style="width:250px;float:left;padding:0px 10px 0px 10px;">
-                    <a href="https://www.youtube.com/watch?v=GChysdd_yYo" target="_blank" style="color: rgb(41,101,213);" class="bloga"><h2>CraftRBLX has hit 80 subs! YAYYYY</h2></a><blogdate>April 20, 2021</blogdate><br>
-                    <blogp><a href="https://bit.ly/38LFrAB" style="color: rgb(41,101,213);" target="_blank" class="bloga">CraftRBLX</a> has hit 80 subs! Thank you to all of its supporters/subscribers for this memorable moment. And we're trying to get to 100 subs for a custom channel URL, so if you haven't yet please subscribe as it's free and helps out a ton!: <a href="https://bit.ly/38LFrAB" style="color: rgb(41,101,213);" target="_blank" class="bloga">https://bit.ly/38LFrAB</a><br><a href="https://craftrblx.github.io/blogs/2021/04/20/CraftRBLX-has-hit-80-subs-YAYYYY.html" style="color: rgb(41,101,213);" class="bloga">[Read Full Blog...]</a></blogp><p></p><br class="blogbr">
-                </div>
-                <div class="blog-ctn" style="width:250px;float:left;padding:0px 10px 0px 10px;">
-                    <a href="https://www.youtube.com/watch?v=833KyKw1rSc" target="_blank" style="color: rgb(41,101,213);" class="bloga"><h2>CraftRBLX has hit 70 subs! WOOHOO</h2></a><blogdate>April 17, 2021</blogdate><br>
-                    <blogp><a href="https://bit.ly/38LFrAB" style="color: rgb(41,101,213);" target="_blank" class="bloga">CraftRBLX</a> has hit 70 subs! Thank you to all of its supporters and subscribers. And we're trying to get to 100 subs for a custom channel URL, so if you haven't yet please subscribe: <a href="https://bit.ly/38LFrAB" style="color: rgb(41,101,213);" target="_blank" class="bloga">https://bit.ly/38LFrAB</a><br><a href="https://craftrblx.github.io/blogs/2021/04/17/CraftRBLX-has-hit-70-subs-WOOHOO.html" style="color: rgb(41,101,213);" class="bloga">[Read Full Blog...]</a></blogp><p></p><br class="blogbr">
-                </div>
-                <div class="blog-ctn" style="width:250px;float:left;padding:0px 10px 0px 10px;">
-                    <h2>Latest News! | Website Blogs</h2><blogdate>April 17, 2021</blogdate><br>
-                    <blogp>The <a href="https://bit.ly/38LFrAB" style="color: rgb(41,101,213);" target="_blank" class="bloga">CraftRBLX</a> Official Website (this website) now has blogs! And this is one of them!</blogp><p></p><br class="blogbr">
-                </div>
-                <div class="blog-ctn" style="width:250px;float:left;padding:0px 10px 0px 10px;">
-                    <h2>CraftRBLX now has a Roblox group!</h2><blogdate>April 07, 2021</blogdate><br>
-                    <blogp><a href="https://bit.ly/38LFrAB" style="color: rgb(41,101,213);" target="_blank" class="bloga">CraftRBLX</a> has an Official Fan Roblox Group! Join now for robux giveaways and more: <a href="https://www.roblox.com/groups/10295625/CraftRBLX-Official-Fan-Roblox-Group#!/about" style="color: rgb(41,101,213);" target="_blank" class="bloga">https://www.roblox.com/<br>groups/10295625/CraftRBLX-Official-Fan-Roblox-Group#!/about</a><br><a href="https://craftrblx.github.io/blogs/2021/04/07/CraftRBLX-now-has-a-Roblox-group.html" style="color: rgb(41,101,213);" class="bloga">[Read Full Blog...]</a></blogp>
-                </div>
+            <div class="blog-ctn" style="width:250px;float:left;padding:0px 10px 0px 10px;">
+                <a href="https://www.youtube.com/watch?v=GIFVnB8T374" target="_blank" style="color: rgb(41,101,213);" class="bloga"><h2>CraftRBLX has hit 100 subs!!!!! YAYYYYYYYYYYY</h2></a><blogdate>May 07, 2021</blogdate><br>
+                <blogp><a href="https://bit.ly/38LFrAB" style="color: rgb(41,101,213);" target="_blank" class="bloga">CraftRBLX</a> has hit 100 subs! I would love to give a giant THANK YOUUU for this commendable and commemorable moment. We have done it! 100 subscribers!!! We are trying to get to 200 subs by Jan 1st 2022! So if you haven't yet please subscribe so we get there: <a href="https://bit.ly/38LFrAB" style="color: rgb(41,101,213);" target="_blank" class="bloga">https://bit.ly/38LFrAB</a><br><a href="https://craftrblx.github.io/blogs/2021/05/07/CraftRBLX-has-hit-100-subs-YAYYYYYYYYYYY.html" style="color: rgb(41,101,213);" class="bloga">[Read Full Blog...]</a></blogp><p></p><br class="blogbr">
             </div>
+            <div class="blog-ctn" style="width:250px;float:left;padding:0px 10px 0px 10px;">
+                <h2>CraftRBLX has hit 90 subs! YAHOOO</h2><blogdate>April 28, 2021</blogdate><br>
+                <blogp><a href="https://bit.ly/38LFrAB" style="color: rgb(41,101,213);" target="_blank" class="bloga">CraftRBLX</a> has hit 90 subs! I would like to give a TY (thank you) for this moment. We are so very close to that 100 subscribers mark. We are trying to get there for a custom channel URL, so if you haven't yet please subscribe to help the goal: <a href="https://bit.ly/38LFrAB" style="color: rgb(41,101,213);" target="_blank" class="bloga">https://bit.ly/38LFrAB</a><br><a href="https://craftrblx.github.io/blogs/2021/04/28/CraftRBLX-has-hit-90-subs-YAHOOO.html" style="color: rgb(41,101,213);" class="bloga">[Read Full Blog...]</a></blogp><p></p><br class="blogbr">
+            </div>
+            <div class="blog-ctn" style="width:250px;float:left;padding:0px 10px 0px 10px;">
+                <a href="https://www.youtube.com/watch?v=GChysdd_yYo" target="_blank" style="color: rgb(41,101,213);" class="bloga"><h2>CraftRBLX has hit 80 subs! YAYYYY</h2></a><blogdate>April 20, 2021</blogdate><br>
+                <blogp><a href="https://bit.ly/38LFrAB" style="color: rgb(41,101,213);" target="_blank" class="bloga">CraftRBLX</a> has hit 80 subs! Thank you to all of its supporters/subscribers for this memorable moment. And we're trying to get to 100 subs for a custom channel URL, so if you haven't yet please subscribe as it's free and helps out a ton!: <a href="https://bit.ly/38LFrAB" style="color: rgb(41,101,213);" target="_blank" class="bloga">https://bit.ly/38LFrAB</a><br><a href="https://craftrblx.github.io/blogs/2021/04/20/CraftRBLX-has-hit-80-subs-YAYYYY.html" style="color: rgb(41,101,213);" class="bloga">[Read Full Blog...]</a></blogp><p></p><br class="blogbr">
+            </div>
+            <div class="blog-ctn" style="width:250px;float:left;padding:0px 10px 0px 10px;">
+                <a href="https://www.youtube.com/watch?v=833KyKw1rSc" target="_blank" style="color: rgb(41,101,213);" class="bloga"><h2>CraftRBLX has hit 70 subs! WOOHOO</h2></a><blogdate>April 17, 2021</blogdate><br>
+                <blogp><a href="https://bit.ly/38LFrAB" style="color: rgb(41,101,213);" target="_blank" class="bloga">CraftRBLX</a> has hit 70 subs! Thank you to all of its supporters and subscribers. And we're trying to get to 100 subs for a custom channel URL, so if you haven't yet please subscribe: <a href="https://bit.ly/38LFrAB" style="color: rgb(41,101,213);" target="_blank" class="bloga">https://bit.ly/38LFrAB</a><br><a href="https://craftrblx.github.io/blogs/2021/04/17/CraftRBLX-has-hit-70-subs-WOOHOO.html" style="color: rgb(41,101,213);" class="bloga">[Read Full Blog...]</a></blogp><p></p><br class="blogbr">
+            </div>
+            <div class="blog-ctn" style="width:250px;float:left;padding:0px 10px 0px 10px;">
+                <h2>Latest News! | Website Blogs</h2><blogdate>April 17, 2021</blogdate><br>
+                <blogp>The <a href="https://bit.ly/38LFrAB" style="color: rgb(41,101,213);" target="_blank" class="bloga">CraftRBLX</a> Official Website (this website) now has blogs! And this is one of them!</blogp><p></p><br class="blogbr">
+            </div>
+            <div class="blog-ctn" style="width:250px;float:left;padding:0px 10px 0px 10px;">
+                <h2>CraftRBLX now has a Roblox group!</h2><blogdate>April 07, 2021</blogdate><br>
+                <blogp><a href="https://bit.ly/38LFrAB" style="color: rgb(41,101,213);" target="_blank" class="bloga">CraftRBLX</a> has an Official Fan Roblox Group! Join now for robux giveaways and more: <a href="https://www.roblox.com/groups/10295625/CraftRBLX-Official-Fan-Roblox-Group#!/about" style="color: rgb(41,101,213);" target="_blank" class="bloga">https://www.roblox.com/<br>groups/10295625/CraftRBLX-Official-Fan-Roblox-Group#!/about</a><br><a href="https://craftrblx.github.io/blogs/2021/04/07/CraftRBLX-now-has-a-Roblox-group.html" style="color: rgb(41,101,213);" class="bloga">[Read Full Blog...]</a></blogp>
+            </div>
+            <script>
+                includeHTML();
+            </script>
         </div>
     </body>      
 </html>
