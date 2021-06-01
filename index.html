@@ -55,6 +55,7 @@
             };
         </script>
         <link rel="stylesheet" type="text/css" href="https://craftrblx.github.io/dark.css">
+        <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&family=Source+Sans+Pro:wght@400&display=swap" rel="stylesheet">
         <style>
             #loader-wrapper {
                 position: fixed;
@@ -261,6 +262,89 @@
             document.createElement("blogdate"); 
             document.createElement("blogp"); 
         </script>
+        <style>
+          :root {
+            --bg-color: black;
+            --typewriterSpeed: 10s;
+            --typewriterCharacters: 42;
+          }
+
+          body {
+            background: var(--bg-color);
+          }
+
+          .welcome {
+            margin: 0;
+            font-family: "Source Sans Pro", sans-serif;
+            min-height: 100vh;
+            display: grid;
+            place-content: center;
+            text-align: center;
+            background: var(--bg-color);
+          }
+
+          #typeText {
+            font-size: clamp(1rem, 3vw + 1rem, 4rem);
+            position: relative;
+            font-family: "Source Code Pro", monospace;
+            position: relative;
+            width: max-content;
+            color: white;
+          }
+
+          #typeText::before,
+          #typeText::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+          }
+
+          #typeText::before {
+            background: var(--bg-color);
+            animation: typewriter var(--typewriterSpeed)
+              steps(var(--typewriterCharacters)) 1s forwards;
+          }
+
+          #typeText::after {
+            width: 0.125em;
+            background: white;
+            animation: typewriter var(--typewriterSpeed)
+                steps(var(--typewriterCharacters)) 1s forwards,
+              blink 750ms steps(var(--typewriterCharacters)) infinite;
+          }
+
+          #typeTextSubtitle {
+            color: hsl(0 0% 0% / 0.7);
+            font-size: 2rem;
+            font-weight: 400;
+            opacity: 0;
+            transform: translateY(3rem);
+            animation: fadeInUp 2s ease calc(var(--typewriterSpeed) + 2s) forwards;
+            color: white;
+          }
+
+          @keyframes typewriter {
+            to {
+              left: 100%;
+            }
+          }
+
+          @keyframes blink {
+            to {
+              background: black;
+            }
+          }
+
+          @keyframes fadeInUp {
+            to {
+              opacity: 1;
+              transform: translateY(0);
+            }
+          }
+        </style>
     </head>
     <body id="body">
         <div id="loader-wrapper">
@@ -268,6 +352,39 @@
             <div class="loader-section section-left"></div>
             <div class="loader-section section-right"></div>
         </div>
+        <div class="welcome">
+          <h1 id="typeText">Welcome to the CraftRBLX Official Website!</h1>
+          <p id="typeTextSubtitle">Scroll down</p>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
         <div class="content" id="content">
             <div w3-include-html="nav.html"></div>
             <p><a class="patha" href="https://craftrblx.github.io">craftrblx.github.io</a> > <a class="patha" href="https://craftrblx.github.io/index.html">index.html</a></p>
