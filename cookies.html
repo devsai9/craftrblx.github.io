@@ -44,6 +44,7 @@
               }
             };
         </script>
+        <link rel="stylesheet" type="text/css" href="https://craftrblx.github.io/dark.css">
          <style>
             #loader-wrapper {
                 position: fixed;
@@ -191,15 +192,9 @@
                 <li>Light or Dark cookie: This cookie stores whether you've turned on the light or dark theme/mode on our website. NOTE: This worksper browser, and if you clear your cookies, it will reset to light mode</li><br>
                 <li>The Cookie acceptance cookie: This cookie stores whether you've accepted our use of cookies while you browse this website.</li>
             </ol><br>
-            <p>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</p><br>
-            <link id="style" rel="stylesheet" type="text/css" href="/assets/light.css">
-            <script src="/assets/dark.js"></script>
-            <button class="light" onclick="swapStyle('light.css')" title="Light Mode Button">
-              <i class="far fa-sun"></i>      
-            </button>
-            <button class="dark" onclick="swapStyle('dark.css')" title="Dark Mode Button">
-              <i class="far fa-moon"></i>
-            </button>
+            <script type="text/javascript" src="https://craftrblx.github.io/cookieconsentpopup.js"></script>
+            <script> window.start.init({Palette:"palette2",Mode:"banner bottom",Theme:"classic",Message:"This website uses cookies to save your choices like dark mode!",LinkText:"Learn more",Location:"https://craftrblx.github.io/cookies.html",})</script>
+            <br>
             <div w3-include-html="v.html"></div>
             <script>
                 includeHTML();
