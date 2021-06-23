@@ -1,6 +1,29 @@
 # Change log
 ## Main = Default English, FE = Funny English, ES = Spanish
 
+## MAIN v8.1 - Jun 23, 2021
+**Changes**
+- The Page Loader is now back on all pages except the (homepage)[https://craftrblx.github.io]
+- Updated one of the Easter Eggs
+
+**Added**
+- Added a new typewriter/typing effect on the (homepage)[https://craftrblx.github.io]
+
+**Removed**
+- Removed 1 Easter Egg
+
+Easter Egg Total: 2
+
+---
+
+## MAIN v8.0 - Jun 1, 2021
+**Changes**
+- Light Mode has now been scrapped, the site will now permanently use dark mode.
+- The Light and Dark mode buttons have been removed to give the site a cleaner look (also because the site is now permanently on dark mode).
+- The website version has been removed from most pages except the (homepage)[https://craftrblx.github.io] and the (changelog)[https://craftrblx.github.io/changelog.html#version-area].
+
+---
+
 ## MAIN v7.7 - May 3, 2021
 **Changes**
 - 100% remade the [Error 404 page](https:/craftrblx.github.io/404.html), to be more user-friendly
