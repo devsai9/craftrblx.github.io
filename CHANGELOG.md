@@ -33,17 +33,17 @@ Easter Egg Total: 2
 
 ## MAIN v7.6 - May 1, 2021
 **Added**
-- Added a home svg next to the homepage text in the pages part of the nav.
+- Added a home SVG next to the homepage text in the pages part of the nav.
 
 **Changes**
-- Made it so that if you load te website witout Javascript, you'll get a warning message. Instead of the page loader spinning forever.
+- Made it so that if you load the website without Javascript, you'll get a warning message. Instead of the page loader spinning forever.
 - Changed the favicon of all pages to the [new CraftRBLX logo](https://craftrblx.github.io/assets/logos/crlogo2021S1.png).
 
 ---
 
 ## MAIN v7.5 - Apr 29, 2021
 **Added**
-- Made it so that when you hover over a link in the blog section of the [homepage](https://craftrblx.github.io/), the underline appears. Otherwise it's hidden.
+- Made it so that when you hover over a link in the blog section of the [homepage](https://craftrblx.github.io/), the underline appears. Otherwise, it's hidden.
 - Added a "[Read Full Blog...]" link to some of the blogs. This link will take you to a page with the full details & content of the blog.
 
 ---
@@ -111,7 +111,7 @@ Easter Egg Total: 2
 
 ## MAIN v6.7 - Mar 12, 2021
 **Changes**
-- Changed it so that the loading screen animation, doesn't stop at 0.6 seconds instead it's length depends on how long the page takes to load (which in-turn depends on how fast your Wi-Fi/Ethernet/Hotspot connection is).
+- Changed it so that the loading screen animation, doesn't stop at 0.6 seconds instead its length depends on how long the page takes to load (which in turn depends on how fast your Wi-Fi/Ethernet/Hotspot connection is).
 
 ---
 
@@ -145,14 +145,14 @@ Easter Egg Total: 2
 
 ## MAIN v6.4 - Mar 10, 2021
 **Added**
-- Added [README.md](https://craftrblx.github.io/README.md) to this website's GitHub repository.</li>
-- Added [3 GitHub Wiki pages](https://github.com/CraftRBLX/CraftRBLX.github.io/wiki) to this website's GitHub repository.</li>
+- Added [README.md](https://craftrblx.github.io/README.md) to this website's GitHub repository.
+- Added [3 GitHub Wiki pages](https://github.com/CraftRBLX/CraftRBLX.github.io/wiki) to this website's GitHub repository.
 
 ---
 
 ## MAIN v6.3 - Mar 10, 2021
 **Changes**
-- Changed the [cookie use policy](https://craftrblx.github.io/cookies.html). SO PLEASE REREAD THEM
+- Changed the [cookie use policy](https://craftrblx.github.io/cookies.html). SO PLEASE REREAD THEM.
 
 ---
 
@@ -177,13 +177,13 @@ Easter Egg Total: 2
 - Added a ["future"](https://craftrblx.github.io/videos/future/fmcraft/index.html) page (for those trying to get to [MCRAFT Seasons](https://craftrblx.github.io/videos/mcraft/index.html) past [Season 1](https://craftrblx.github.io/videos/mcraft/s1/index.html))
 
 **Removed**
-- All languages except english (en-us) have discontinued and have been unlinked from the navigator and the changlog pages ([changelog.html](https://craftrblx.github.io/changelog.html), [changelog.md](https://craftrblx.github.io/CHANGELOG.md))
+- All languages except English (en-us) have discontinued and have been unlinked from the navigator and the changelog pages ([changelog.html](https://craftrblx.github.io/changelog.html), [changelog.md](https://craftrblx.github.io/CHANGELOG.md))
 
 ---
 
 ## MAIN v5.6 - Feb 25, 2021
 **Changes**
-- Changed the loading screen animation times a little (from 1 second to a 0.6 seconds).
+- Changed the loading screen animation times a little (from 1 second to 0.6 seconds).
 
 ---
 
@@ -201,7 +201,7 @@ Easter Egg Total: 2
 
 ## MAIN v5.3 - Feb 23, 2021
 **Added**
-- Added Tiny URLs to minimize typing in the search bar. Basically the Tiny URL's URL is based off of this https://craftrblx.github.io/tinyurl/page_letter(s). Full Tiny URL reference (https://craftrblx.github.io/tinyurl)
+- Added Tiny URLs to minimize typing in the search bar. Basically, the Tiny URL's URL is based on this https://craftrblx.github.io/tinyurl/page_letter(s). Full Tiny URL reference (https://craftrblx.github.io/tinyurl)
 
 ---
 
@@ -218,7 +218,7 @@ Easter Egg Total: 2
 - After your device's width reaches 334px or below the CraftRBLX logo switches to the CraftRBLX text.
 
 **Notes**
-- To view this on computer you can use the dev tools by using f12 or Control(Command on Mac)+Shift+J and then select the "Device emulation" button, then set the device to "responsive". Then change the first value (width) to 333 or below.
+- To view this on a computer you can use the dev tools by using f12 or Control(Command on Mac)+Shift+J and then select the "Device emulation" button, then set the device to "responsive". Then change the first value (width) to 333 or below.
 
 ---
 
@@ -256,7 +256,7 @@ NOTE: THERE WHERE SOME NON DOCUMENTED CHANGES HENCE THE FE VERSION JUMP FROM v1.
 ## MAIN: v4.1 - Feb 1, 2021
 
 **Changes**
-- [CraftRBLX](https://www.youtube.com/channel/UCEh6ZxENe-OzEu_tl3t3s-w/) text has been swapped for [BHM (Black History Month Image](https://craftrblx.github.io/HBHM_Cropped.png) NOTE: BHM IMAGE WILL BE REMOVED FEB. 3, 2021
+- [CraftRBLX](https://www.youtube.com/channel/UCEh6ZxENe-OzEu_tl3t3s-w/) text has been swapped for [BHM (Black History Month Image)](https://craftrblx.github.io/HBHM_Cropped.png) NOTE: BHM IMAGE WILL BE REMOVED FEB. 3, 2021
 
 ---
 
