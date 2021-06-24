@@ -201,7 +201,7 @@ Easter Egg Total: 2
 
 ## MAIN v5.3 - Feb 23, 2021
 **Added**
-- Added Tiny URLs to minimize typing in the search bar. Basically, the Tiny URL's URL is based on this https://craftrblx.github.io/tinyurl/page_letter(s). Full Tiny URL reference (https://craftrblx.github.io/tinyurl)
+- Added Tiny URLs to minimize typing in the search bar. Basically, the Tiny URL's URL is based on this `https://craftrblx.github.io/tinyurl/page_letter(s)`. Full Tiny URL reference (https://craftrblx.github.io/tinyurl)
 
 ---
 
