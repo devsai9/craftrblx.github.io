@@ -14,7 +14,7 @@
 
 Easter Egg Total: 2
 
---
+---
 
 ## MAIN v8.0 - Jun 1, 2021
 **Changes**
